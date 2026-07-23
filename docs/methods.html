@@ -122,6 +122,16 @@ improving severe-case discrimination going forward -- not further curve-fitting 
 a sample this size.
 </div>
 
+<p>
+We also specifically checked whether the wind/temperature ("current activity")
+multiplier earns its place, since day-to-day weather is a lot more variable than
+seasonal snowmelt/habitat signals. Dividing it back out of the predictions drops
+Spearman correlation from 0.233 to 0.209 -- a real, if modest, net positive, and
+consistent with how often HST posters explicitly credit wind for low bug counts in
+their own write-ups ("windy, so 0" is a recurring phrase in the raw reports). We kept
+it, with the caveat below.
+</p>
+
 <h2>Known limitations</h2>
 <ul>
 <li>HST reports are self-selected -- posters skew toward reporting notable conditions
@@ -136,6 +146,15 @@ in-sample look, appropriate for sanity-checking direction and finding bugs, not 
 confidently tuning parameters.</li>
 <li>gridMET weather is ~4km native resolution; grid points closer together than that
 share identical weather inputs regardless of map spacing.</li>
+<li>The current-activity (wind/temperature) term uses a single most-recent-day gridMET
+value, not a live reading. Two coarseness issues follow from that: <em>temporal</em> --
+the severity scale itself distinguishes dawn/dusk from midday, but one daily number
+can't, so the map may not reflect what you'd actually feel standing there at a
+particular hour; and <em>spatial</em> -- gridMET's ~4km cells can't resolve the
+terrain-channeled wind differences between, say, a sheltered lake basin and an exposed
+ridge a mile away. It also means the score can shift day-to-day for reasons unrelated to
+the underlying seasonal mosquito trend (yesterday happened to be windy), which is worth
+keeping in mind if you're comparing the same location across visits.</li>
 </ul>
 
 <p style="margin-top:3em; color:#888; font-size:0.9em;">
