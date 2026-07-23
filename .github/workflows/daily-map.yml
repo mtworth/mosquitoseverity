@@ -1,0 +1,47 @@
+name: Rebuild mosquito map
+
+on:
+  schedule:
+    # 13:00 UTC = ~6am Pacific (daylight). Adjust as needed -- this is
+    # just "some time in the early morning Pacific" for a daily refresh.
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write Earth Engine service account key
+        run: echo '${{ secrets.EE_SERVICE_ACCOUNT_KEY }}' > /tmp/ee_key.json
+
+      - name: Build map
+        env:
+          EE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.EE_SERVICE_ACCOUNT_EMAIL }}
+          EE_SERVICE_ACCOUNT_KEY_FILE: /tmp/ee_key.json
+          EE_PROJECT: ${{ secrets.EE_PROJECT }}
+        run: python -m mosquito.build_map
+
+      - name: Publish to docs/ for GitHub Pages
+        run: |
+          latest=$(ls -t output/mosquito_map_*.html | head -1)
+          cp "$latest" docs/index.html
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html
+          git diff --quiet --cached || git commit -m "Daily map rebuild $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,549 @@
+source,source_url,post_id,author_id,trip_id,observation_date,date_start,date_end,date_precision,place_text,latitude,longitude,location_confidence,reported_severity,severity_min,severity_max,raw_text,matched_substring,gaz_name,gaz_class,match_score
+high_sierra_topix,,1,Harlen,1,2025-05-25,2025-05-25,2025-05-25,exact,Onion Valley,39.5185621,-120.2858071,high,0.0,0.0,0.0,5/25 Onion Valley = 0,Onion Valley,Onion Valley,Valley,100.0
+high_sierra_topix,,1,Harlen,1,2025-05-26,2025-05-26,2025-05-26,exact,Rock Creek to Box Lake,37.7038204,-118.4165059,high,0.0,0.0,0.0,5/26 Rock Creek to Box Lake = 0,Rock Creek,Rock Creek,Stream,100.0
+high_sierra_topix,,1,Harlen,1,2025-05-27,2025-05-27,2025-05-27,exact,Sonora Pass,38.327691,-119.6368387,high,0.0,0.0,0.0,5/27 Sonora Pass = 0,Sonora Pass,Sonora Pass,Gap,100.0
+high_sierra_topix,,2,riemannzetagambit,2,,2025-05-25,2025-05-26,range,Kibbie Ridge and approach,,,unresolved,0.0,0.0,0.0,Kibbie Ridge and approach = 0,Kibbie Ridge,Kibbie Lake,Lake,69.56521739130434
+high_sierra_topix,,2,riemannzetagambit,2,,2025-05-25,2025-05-26,range,Kibbie Lake,38.0538155,-119.8458762,high,1.5,1.5,1.5,Kibbie Lake = 1.5,Kibbie Lake,Kibbie Lake,Lake,100.0
+high_sierra_topix,,3,Lenier,3,2025-06-03,2025-06-03,2025-06-03,exact,Yosemite North Rim,,,unresolved,1.5,1.5,1.5,6/3/25 Yosemite North Rim = 1.5,Yosemite North Rim,Yosemite Forks,Populated Place,68.75
+high_sierra_topix,,4,wildhiker,4,2025-06-06,2025-06-06,2025-06-06,exact,Hetch Hetchy Reservoir to Rancheria Cr,37.9458523,-119.7365498,high,1.0,1.0,1.0,"Level 1 all day, including evening and dusk.",Hetch Hetchy Reservoir,Hetch Hetchy Reservoir,Reservoir,100.0
+high_sierra_topix,,5,Schleppy,5,,2025-06-06,2025-06-08,range,"Roosavelt Lake, Lane Lake, and W Walker River up to Hidden Lake",38.2925623,-119.5414441,high,3.5,3.5,3.5,= 3.5,Lane Lake,Lane Lake,Lake,100.0
+high_sierra_topix,,5,Schleppy,5,,2025-06-06,2025-06-08,range,Kennedy Creek between Kennedy Lake and Sharon Lake outlet creek,36.9349393,-118.6698246,high,3.0,3.0,3.0,= 3,Kennedy Creek,Kennedy Creek,Stream,100.0
+high_sierra_topix,,5,Schleppy,5,,2025-06-06,2025-06-08,range,"lakes and meadows above 7,800' (Hoover/Emigrant, decreasing to near-zero ~8,500')",,,unresolved,3.5,3.0,4.0,"Moderate/heavy on all >7,800' lakes and meadows. Level decreases with elevation, reaching near zero around 8,500'.",lakes,Alger Lakes,Lake,62.5
+high_sierra_topix,,6,paul,6,,2025-06-02,2025-06-10,range,"horseshoe meadows, mulkey meadows, templeton meadows, kern peak, golden trout creek, Rocky basin lakes, boreal plateau, siberian outpost, tunnel meadow",36.3502172,-118.4048108,medium,1.5,0.0,3.0,"0-2 going in, some areas 3 on the way out. Worst along Golden trout creek and South Fork of the Kern.",golden trout creek,Golden Trout Creek,Stream,83.33333333333334
+high_sierra_topix,,7,bigrig,7,,2025-06-13,2025-06-14,range,Maggie's Peak,38.9314523,-120.1136983,high,0.0,0.0,0.0,Maggie's Peak = 0,Maggie's Peak,Maggies Peaks,Summit,92.3076923076923
+high_sierra_topix,,7,bigrig,7,,2025-06-13,2025-06-14,range,Dick's Lake,38.9119459,-120.142982,high,0.0,0.0,0.0,Dick's Lake = 0,Dick's Lake,Dicks Lake,Lake,95.23809523809523
+high_sierra_topix,,8,awakesource,8,,2025-06-13,2025-06-15,range,Phipps Lake and Peak areas above 8k feet,38.9610352,-120.1464143,high,0.0,0.0,0.0,0 for almost the whole trip... 100% clear,Phipps Lake,Phipps Lake,Lake,100.0
+high_sierra_topix,,8,awakesource,8,2025-06-15,2025-06-15,2025-06-15,exact,Middle Velma,38.9365332,-120.1502384,medium,1.0,1.0,1.0,On the 15th I stopped for a sec at Middle Velma and got bitten pretty quickly,Middle Velma,Middle Velma Lake,Lake,82.75862068965517
+high_sierra_topix,,9,middleweight_marmot,9,,2025-06-06,2025-06-08,range,high country (Sawmill Pass/Woods Basin/Basin Below Pinchot),,,unresolved,0.0,0.0,0.0,0 nearly the whole way - still pretty snowy up in the high country,high country,Mount Shinn,Summit,60.86956521739131
+high_sierra_topix,,9,middleweight_marmot,9,,2025-06-06,2025-06-08,range,hogsback along Sawmill creek,,,unresolved,1.5,1.0,2.0,1-2 Along the hogsback,Sawmill creek,Billy Creek,Stream,66.66666666666667
+high_sierra_topix,,9,middleweight_marmot,9,2025-06-08,2025-06-08,2025-06-08,exact,Sawmill Meadow,,,unresolved,1.0,1.0,1.0,1 at Sawmill Meadow on 6/8 (was zero on 6/6),Sawmill Meadow,Sawmill Canyon,Valley,71.42857142857143
+high_sierra_topix,,9,middleweight_marmot,9,2025-06-06,2025-06-06,2025-06-06,exact,Sawmill Meadow,,,unresolved,0.0,0.0,0.0,was zero on 6/6,Sawmill Meadow,Sawmill Canyon,Valley,71.42857142857143
+high_sierra_topix,,10,Love the Sierra,10,,2025-06-14,2025-06-16,range,Forests and meadows,37.6982612,-119.7551719,medium,3.5,3.0,4.0,"3 in the day, 4 at dusk and dawn",Forests,Foresta,Populated Place,85.71428571428572
+high_sierra_topix,,10,Love the Sierra,10,,2025-06-14,2025-06-16,range,Hidden Lake,38.9866054,-120.1522629,high,0.0,0.0,0.0,Hidden Lake: 0,Hidden Lake,Hidden Lake,Lake,100.0
+high_sierra_topix,,10,Love the Sierra,10,,2025-06-14,2025-06-16,range,South Fork Lake,36.483089,-118.218084,high,4.0,4.0,4.0,4 all day,South Fork Lake,South Fork Lakes,Lake,96.7741935483871
+high_sierra_topix,,10,Love the Sierra,10,,2025-06-14,2025-06-16,range,Sunny dry areas,,,unresolved,3.0,3.0,3.0,Sunny dry areas: 3,Sunny dry areas,Sunnyside,Populated Place,58.33333333333333
+high_sierra_topix,,11,Fly Guy Dave,11,,2025-06-15,2025-06-19,range,"Northern Hoover Wilderness, Emma Lake area",,,unresolved,0.0,0.0,0.0,"really windy one day, but even when calm, 0",Emma Lake area,Emma Lake,Lake,78.26086956521739
+high_sierra_topix,,11,Fly Guy Dave,11,,2025-06-15,2025-06-19,range,streams in the Pickel Meadow area,,,unresolved,0.5,0.0,1.0,"1 at dawn and dusk, 0 the rest of the day and night",streams in the Pickel Meadow area,Wet Meadows Springs,Spring,50.0
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-11,2025-06-11,2025-06-11,exact,Bishop Pass/Dusy Basin,37.114656,-118.5448288,high,0.0,0.0,0.0,6/11: 0,Bishop Pass,Bishop Pass,Gap,100.0
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-11,2025-06-11,2025-06-11,exact,LeConte Canyon (Big Pete Meadow),39.5800986,-120.3023873,medium,2.0,2.0,2.0,6/11: 2,LeConte Canyon,Lemon Canyon,Valley,84.61538461538461
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-12,2025-06-12,2025-06-12,exact,Muir Pass,37.1116032,-118.6706636,high,0.0,0.0,0.0,6/12: 0,Muir Pass,Muir Pass,Gap,100.0
+high_sierra_topix,,12,saxifrage_beckley,12,,2025-06-12,2025-06-13,range,Evolution Basin,37.1354922,-118.6964983,high,0.5,0.5,0.5,6/12-13: 0.5,Evolution Basin,Evolution Basin,Basin,100.0
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-13,2025-06-13,2025-06-13,exact,Darwin Canyon,37.1870637,-118.7025313,high,0.0,0.0,0.0,6/13: 0,Darwin Canyon,Darwin Canyon,Valley,100.0
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-13,2025-06-13,2025-06-13,exact,Lower Lamarck Lake,37.2171895,-118.6426829,high,1.0,1.0,1.0,6/13: 1 (windy so not too bad),Lower Lamarck Lake,Lower Lamarck Lake,Lake,100.0
+high_sierra_topix,,12,saxifrage_beckley,12,2025-06-14,2025-06-14,2025-06-14,exact,Grass Lake,37.2171386,-118.6307994,high,2.5,2.0,3.0,6/14: 2-3,Grass Lake,Grass Lake,Lake,100.0
+high_sierra_topix,,13,cherron,13,,2025-06-17,2025-06-19,range,Cathedral Lakes area including Echo Lake and Matthes Lake,37.8105062,-119.3982342,high,3.0,3.0,3.0,all around a 3,Matthes Lake,Matthes Lake,Lake,100.0
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,Duck and Pika Lake area,,,unresolved,0.0,0.0,0.0,= 0,Pika Lake area,Pika Lake,Lake,78.26086956521739
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,"Trail to Purple Lake, and later back to Duck Lake",37.530262,-118.9468637,high,0.0,0.0,0.0,= 0,Purple Lake,Purple Lake,Lake,100.0
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,"Purple Lake camp at 9,900'",37.530262,-118.9468637,medium,2.0,2.0,2.0,= 2,Purple Lake camp,Purple Lake,Lake,81.4814814814815
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,Ram Lakes,37.063968,-118.7505566,high,2.0,2.0,2.0,followed us up to Ram Lakes as a 2,Ram Lakes,Ram Lake,Lake,94.11764705882352
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,trail back to Duck Lake,36.9925299,-118.8925502,high,2.0,2.0,2.0,also at level 2,Duck Lake,Duck Lake,Lake,100.0
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,Deer Lakes basin,,,unresolved,0.0,0.0,0.0,none- 0!,Deer Lakes basin,Deer Lakes,Lake,76.92307692307692
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,Mammoth Crest,37.6393787,-118.9079101,medium,0.0,0.0,0.0,"=0, (very windy!)",Mammoth Crest,Mammoth Creek,Stream,84.61538461538461
+high_sierra_topix,,14,Harlen,14,,2025-06-15,2025-06-21,range,trails down to Mammoth Lakes,37.604659,-119.0112429,high,1.0,1.0,1.0,= 1,Mammoth Lakes,Mammoth Lakes,Lake,100.0
+high_sierra_topix,,15,riemannzetagambit,15,,2025-06-21,2025-06-22,range,Green Lake,37.1693912,-118.5319102,high,1.0,1.0,1.0,Green Lake: 1,Green Lake,Green Lake,Lake,100.0
+high_sierra_topix,,15,riemannzetagambit,15,,2025-06-21,2025-06-22,range,Glines Canyon to Virginia Pass,38.0819507,-119.3105659,high,0.0,0.0,0.0,0,Glines Canyon,Glines Canyon,Valley,100.0
+high_sierra_topix,,16,wildhiker,16,2025-06-20,2025-06-20,2025-06-20,exact,Sagehen Creek (north of Truckee),39.4768517,-120.131868,high,0.0,0.0,0.0,windy - 0,Sagehen Creek,Sagehen Creek,Stream,100.0
+high_sierra_topix,,16,wildhiker,16,2025-06-21,2025-06-21,2025-06-21,exact,Tahoe Rim Trail from Martis Peak Rd to Mount Baldy,39.2913859,-120.0329376,medium,0.0,0.0,0.0,breezy - 0,Martis Peak Rd,Martis Peak,Summit,88.0
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Trailhead in the morning,,,unresolved,1.5,1.0,2.0,Low to moderate (1-2),Trailhead in the morning,Green Water Spring,Spring,52.38095238095239
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Long Lake,39.0381774,-120.266555,high,1.0,1.0,1.0,Low (1),Long Lake,Long Lake,Lake,100.0
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,"Saddlerock Lake, over Bishop Pass, and Dusy Basin down to 11,200 ft (camp)",37.1278863,-118.5534601,high,0.0,0.0,0.0,None (0),Saddlerock Lake,Saddlerock Lake,Lake,100.0
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Lower Dusy Basin (late morning),,,unresolved,3.5,3.0,4.0,Moderate to heavy (3-4),Lower Dusy Basin,Dusy Basin,Basin,76.92307692307692
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Dusy Branch crossing to Rainbow Lakes,37.0882682,-118.575402,high,0.0,0.0,0.0,None (0),Rainbow Lakes,Rainbow Lakes,Lake,100.0
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Rainbow Lakes,37.0882682,-118.575402,high,0.0,0.0,0.0,None (0),Rainbow Lakes,Rainbow Lakes,Lake,100.0
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,Small lakes in the valley west of Rainbow Lakes,,,unresolved,0.0,0.0,0.0,None (0),Small lakes in the valley west of Rainbow Lakes,Valley Lake Ranchos,Populated Place,48.484848484848484
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,"Lower Dusy Basin at midday, strong cold wind",,,unresolved,1.0,1.0,1.0,Some (1),Lower Dusy Basin,Dusy Basin,Basin,76.92307692307692
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,"Above 10,800 ft",,,unresolved,0.0,0.0,0.0,None (0),Above 10,Andover,Populated Place,53.333333333333336
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,"Camp at the lake near the trail at ~11,300 ft",,,unresolved,0.0,0.0,0.0,None (0),the lake,Tether Lake,Lake,73.6842105263158
+high_sierra_topix,,17,tomba,17,,2025-06-19,2025-06-22,range,trail to trailhead including parking area,,,unresolved,0.5,0.0,1.0,"None (0), except possibly some (1) near Long Lake",trail,Trail Crest,Gap,62.5
+high_sierra_topix,,18,BaDumCrash,18,,2025-06-24,2025-06-25,range,Onion Valley Campground and trailhead,,,unresolved,1.0,1.0,1.0,1,Onion Valley Campground,Onion Valley,Valley,68.57142857142857
+high_sierra_topix,,18,BaDumCrash,18,,2025-06-24,2025-06-25,range,Gilbert Lake and Flower Lake,36.7696297,-118.3561936,high,2.0,2.0,2.0,2,Gilbert Lake,Gilbert Lake,Lake,100.0
+high_sierra_topix,,18,BaDumCrash,18,,2025-06-24,2025-06-25,range,Kearsarge Lakes,36.764579,-118.388622,high,1.0,1.0,1.0,1,Kearsarge Lakes,Kearsarge Lakes,Lake,100.0
+high_sierra_topix,,18,BaDumCrash,18,,2025-06-24,2025-06-25,range,Rest of the trail,,,unresolved,0.0,0.0,0.0,0,Rest of the trail,Trail Crest,Gap,57.14285714285714
+high_sierra_topix,,19,sidsquid,19,,2025-06-20,2025-06-24,range,Cottonwood Pass,35.7802417,-120.2070888,high,1.0,1.0,1.0,1,Cottonwood Pass,Cottonwood Pass,Gap,100.0
+high_sierra_topix,,19,sidsquid,19,,2025-06-20,2025-06-24,range,Crabtree Meadow,38.5787983,-120.0004621,medium,2.0,2.0,2.0,2,Crabtree Meadow,Meadow Creek,Stream,81.4814814814815
+high_sierra_topix,,19,sidsquid,19,,2025-06-20,2025-06-24,range,Crabtree Basin,37.9929792,-120.1832428,medium,0.0,0.0,0.0,0,Crabtree Basin,Basin Creek,Stream,80.0
+high_sierra_topix,,19,sidsquid,19,,2025-06-20,2025-06-24,range,Miter Basin,,,unresolved,0.0,0.0,0.0,0,Miter Basin,Center Basin,Basin,78.26086956521739
+high_sierra_topix,,19,sidsquid,19,,2025-06-20,2025-06-24,range,Cottonwood Lakes,35.7802417,-120.2070888,medium,1.0,1.0,1.0,1,Cottonwood Lakes,Cottonwood Pass,Gap,83.87096774193549
+high_sierra_topix,,20,cloudlesssky,20,2025-06-24,2025-06-24,2025-06-24,exact,Honeymoon Lake,37.3396341,-118.743449,high,2.0,2.0,2.0,it was very cool,Honeymoon Lake,Honeymoon Lake,Lake,100.0
+high_sierra_topix,,20,cloudlesssky,20,2025-06-25,2025-06-25,2025-06-25,exact,Honeymoon Lake,37.3396341,-118.743449,high,3.0,3.0,3.0,warmed 10+ degrees,Honeymoon Lake,Honeymoon Lake,Lake,100.0
+high_sierra_topix,,20,cloudlesssky,20,2025-06-26,2025-06-26,2025-06-26,exact,Honeymoon Lake,37.3396341,-118.743449,high,3.0,3.0,3.0,continued warming trend,Honeymoon Lake,Honeymoon Lake,Lake,100.0
+high_sierra_topix,,20,cloudlesssky,20,2025-06-25,2025-06-25,2025-06-25,exact,Royce Lakes,37.3268833,-118.7652391,high,1.0,1.0,1.0,6/25 Royce Lakes - 1,Royce Lakes,Royce Lakes,Lake,100.0
+high_sierra_topix,,21,pitchman,21,2025-06-20,2025-06-20,2025-06-20,exact,Meadow below Taboose Pass,,,unresolved,1.0,1.0,1.0,1,Meadow below Taboose Pass,Taboose Pass,Gap,64.86486486486487
+high_sierra_topix,,21,pitchman,21,2025-06-21,2025-06-21,2025-06-21,exact,Amphitheater Basin,37.0428882,-118.5102053,medium,0.0,0.0,0.0,0,Amphitheater Basin,Amphitheater Lake,Lake,80.0
+high_sierra_topix,,21,pitchman,21,,2025-06-22,2025-06-23,range,Lake Basin / Marion Lake,36.9824359,-118.5131564,high,1.0,1.0,1.0,1,Lake Basin,Lake Basin,Basin,100.0
+high_sierra_topix,,21,pitchman,21,,2025-06-24,2025-06-25,range,Lake Basin / Marion Lake,36.9824359,-118.5131564,high,3.0,3.0,3.0,3,Lake Basin,Lake Basin,Basin,100.0
+high_sierra_topix,,21,pitchman,21,2025-06-26,2025-06-26,2025-06-26,exact,Basin south of Cartridge Pass,,,unresolved,2.0,2.0,2.0,2,Basin south of Cartridge Pass,Cartridge Pass,Gap,65.11627906976744
+high_sierra_topix,,21,pitchman,21,2025-06-27,2025-06-27,2025-06-27,exact,Meadow below Taboose Pass,,,unresolved,3.0,3.0,3.0,3,Meadow below Taboose Pass,Taboose Pass,Gap,64.86486486486487
+high_sierra_topix,,22,sdsdsd,22,2025-06-28,2025-06-28,2025-06-28,exact,Cottonwood > New Army Pass > Mt Langley (general),,,unresolved,0.0,0.0,0.0,0 for all areas except,Cottonwood > New Army Pass > Mt Langley,Cottonwood Pass,Gap,55.55555555555556
+high_sierra_topix,,22,sdsdsd,22,2025-06-28,2025-06-28,2025-06-28,exact,New Army/Old army trail split,,,unresolved,1.5,1.0,2.0,1-2,New Army,New Army Pass,Gap,76.19047619047619
+high_sierra_topix,,22,sdsdsd,22,2025-06-28,2025-06-28,2025-06-28,exact,basin between Langley and New Army Pass (dusk),36.4902135,-118.2398098,high,1.5,1.0,2.0,1-2 dusk,New Army Pass,New Army Pass,Gap,100.0
+high_sierra_topix,,23,therold,23,2025-06-28,2025-06-28,2025-06-28,exact,Green Lake TH to lower Glines Canyon,37.1693912,-118.5319102,medium,3.0,3.0,3.0,3,Green Lake TH,Green Lake,Lake,86.95652173913044
+high_sierra_topix,,23,therold,23,2025-06-28,2025-06-28,2025-06-28,exact,Traverse from Virginia Pass to Return Lake,38.0665882,-119.3365481,high,0.5,0.0,1.0,<=1,Virginia Pass,Virginia Pass,Gap,100.0
+high_sierra_topix,,23,therold,23,2025-06-28,2025-06-28,2025-06-28,exact,Upper Return Lake basin,,,unresolved,0.0,0.0,0.0,0,Upper Return Lake basin,Upper Morgan Lake,Lake,65.0
+high_sierra_topix,,23,therold,23,2025-06-29,2025-06-29,2025-06-29,exact,Upper Return Lake basin,,,unresolved,0.0,0.0,0.0,0,Upper Return Lake basin,Upper Morgan Lake,Lake,65.0
+high_sierra_topix,,23,therold,23,2025-06-29,2025-06-29,2025-06-29,exact,Traverse from Return Lake to Virginia Pass,38.0626509,-119.3493654,high,1.5,0.0,3.0,<=3,Return Lake,Return Lake,Lake,100.0
+high_sierra_topix,,23,therold,23,2025-06-29,2025-06-29,2025-06-29,exact,Lower Glines Canyon to Green Lake TH,37.1693912,-118.5319102,medium,1.0,0.0,2.0,<=2,Green Lake TH,Green Lake,Lake,86.95652173913044
+high_sierra_topix,,24,duncancallaway,24,2025-06-28,2025-06-28,2025-06-28,exact,Gianelli TH to Powell Lake,38.2040649,-119.8579857,high,0.5,0.0,1.0,<1,Powell Lake,Powell Lake,Lake,100.0
+high_sierra_topix,,24,duncancallaway,24,2025-06-28,2025-06-28,2025-06-28,exact,Powell Lake,38.2040649,-119.8579857,high,2.5,2.0,3.0,2-3,Powell Lake,Powell Lake,Lake,100.0
+high_sierra_topix,,24,duncancallaway,24,2025-06-29,2025-06-29,2025-06-29,exact,Powell Lake,38.2040649,-119.8579857,high,2.0,2.0,2.0,2,Powell Lake,Powell Lake,Lake,100.0
+high_sierra_topix,,24,duncancallaway,24,2025-06-29,2025-06-29,2025-06-29,exact,Powell Lake to Gianelli TH,38.2040649,-119.8579857,high,0.5,0.0,1.0,<1,Powell Lake,Powell Lake,Lake,100.0
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-25,2025-06-25,2025-06-25,exact,Trailhead to Gem Pass trail junction,,,unresolved,1.5,1.0,2.0,"1-2, annoying small ones",Trailhead,Fairmead,Populated Place,58.82352941176471
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-26,2025-06-26,2025-06-26,exact,Thousand Island Lake via Agnew Pass,37.7208769,-119.1833282,high,1.0,1.0,1.0,1 only because of wind,Thousand Island Lake,Thousand Island Lake,Lake,100.0
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-27,2025-06-27,2025-06-27,exact,Marie Lake,37.2968546,-118.8682835,high,0.0,0.0,0.0,"0 freezing at night, and windy",Marie Lake,Marie Lake,Lake,100.0
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-28,2025-06-28,2025-06-28,exact,Middle Lost Lake,,,unresolved,1.0,0.0,2.0,"0 mostly wind, 1-2 when subsided",Middle Lost Lake,Lower Saddle Lake,Lake,72.72727272727273
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-29,2025-06-29,2025-06-29,exact,Lower Lost Lake,38.2259076,-119.5695335,medium,1.5,1.0,2.0,mostly windy 1-2,Lower Lost Lake,Lower Long Lake,Lake,86.66666666666667
+high_sierra_topix,,25,Wandering Daisy,25,2025-06-30,2025-06-30,2025-06-30,exact,Alger Lakes,37.7955363,-119.1795371,high,1.0,0.0,2.0,"1-2, 0 in morning",Alger Lakes,Alger Lakes,Lake,100.0
+high_sierra_topix,,25,Wandering Daisy,25,2025-07-01,2025-07-01,2025-07-01,exact,trail out (general),,,unresolved,1.5,1.0,2.0,"nice breeze, very hot 1-2",trail out,Mount Sill,Summit,63.1578947368421
+high_sierra_topix,,26,riemannzetagambit,26,2025-06-26,2025-06-26,2025-06-26,exact,Rafferty Creek to Merced River,37.8690927,-119.3232099,high,2.0,2.0,2.0,2,Rafferty Creek,Rafferty Creek,Stream,100.0
+high_sierra_topix,,26,riemannzetagambit,26,2025-06-26,2025-06-26,2025-06-26,exact,Grey Peak Fork drainage,,,unresolved,3.0,3.0,3.0,3,Grey Peak Fork drainage,Gray Peak Fork,Stream,70.27027027027026
+high_sierra_topix,,26,riemannzetagambit,26,2025-06-27,2025-06-27,2025-06-27,exact,Grey Peak Fork drainage,,,unresolved,4.0,4.0,4.0,4,Grey Peak Fork drainage,Gray Peak Fork,Stream,70.27027027027026
+high_sierra_topix,,26,riemannzetagambit,26,,2025-06-26,2025-06-29,range,above 10k feet and treeline,,,unresolved,0.5,0.0,1.0,0-1,treeline,Stateline,Populated Place,70.58823529411764
+high_sierra_topix,,26,riemannzetagambit,26,2025-06-28,2025-06-28,2025-06-28,exact,Boothe Lake and Vogelsang,37.7998981,-119.34782,high,4.5,4.0,5.0,4-5,Boothe Lake,Boothe Lake,Lake,100.0
+high_sierra_topix,,26,riemannzetagambit,26,2025-06-29,2025-06-29,2025-06-29,exact,Boothe Lake and Rafferty Creek,37.7998981,-119.34782,high,4.5,4.0,5.0,4-5,Boothe Lake,Boothe Lake,Lake,100.0
+high_sierra_topix,,27,looks easy from here,27,,2025-07-03,2025-07-05,range,Upper Kinney Lake (Ebbett's Pass area),38.5578247,-119.828559,high,1.0,0.0,2.0,"0-2, breezy",Upper Kinney Lake,Upper Kinney Lake,Lake,100.0
+high_sierra_topix,,28,vilnukoy,28,,2025-07-03,2025-07-05,range,Cottonwood Pass,35.7802417,-120.2070888,high,1.0,1.0,1.0,= 1 (sun and wind probably helped),Cottonwood Pass,Cottonwood Pass,Gap,100.0
+high_sierra_topix,,28,vilnukoy,28,2025-07-04,2025-07-04,2025-07-04,exact,"Trail Pass, Mulkey Meadow and Pass",36.4271585,-118.1759196,high,0.0,0.0,0.0,= 0,Trail Pass,Trail Pass,Gap,100.0
+high_sierra_topix,,28,vilnukoy,28,2025-07-05,2025-07-05,2025-07-05,exact,"Mulkey Meadow/Pass, Dutch Meadow and Trail Pass (except Dutch Meadow)",36.4271585,-118.1759196,high,0.0,0.0,0.0,all other = 0,Trail Pass,Trail Pass,Gap,100.0
+high_sierra_topix,,28,vilnukoy,28,2025-07-05,2025-07-05,2025-07-05,exact,Dutch Meadow,,,unresolved,2.0,2.0,2.0,= 2,Dutch Meadow,Buck Meadows,Populated Place,75.0
+high_sierra_topix,,29,talleycat,29,2025-07-04,2025-07-04,2025-07-04,exact,Burro Lake,37.5324117,-119.3659548,high,0.5,0.0,1.0,Mosquito rating: 0-1. Free and clear!,Burro Lake,Burro Lake,Lake,100.0
+high_sierra_topix,,30,Snowtrout,30,,2025-07-01,2025-07-02,range,Courtright Lake,,,unresolved,0.5,0.0,1.0,wind and major thunderstorm kept bugs down,Courtright Lake,Fourth Lake,Lake,76.92307692307692
+high_sierra_topix,,30,Snowtrout,30,,2025-07-03,2025-07-04,range,trail from Cliff Lake TH to Nelson Lake,37.8098143,-119.3768355,high,1.5,1.0,2.0,bugs bad in shady areas,Nelson Lake,Nelson Lake,Lake,100.0
+high_sierra_topix,,30,Snowtrout,30,,2025-07-03,2025-07-04,range,Nelson Lake,37.8098143,-119.3768355,high,3.0,3.0,3.0,ruthless at the lake,Nelson Lake,Nelson Lake,Lake,100.0
+high_sierra_topix,,31,mt.eo,31,2025-07-05,2025-07-05,2025-07-05,exact,Cottonwood Lakes Trail,,,unresolved,3.0,3.0,3.0,3,Cottonwood Lakes Trail,Cottonwood Lake Number Six,Lake,75.0
+high_sierra_topix,,31,mt.eo,31,2025-07-05,2025-07-05,2025-07-05,exact,High Lake / New Army Pass,36.4892155,-118.2336604,high,1.0,1.0,1.0,1,High Lake,High Lake,Lake,100.0
+high_sierra_topix,,31,mt.eo,31,2025-07-05,2025-07-05,2025-07-05,exact,Rock Creek,37.7038204,-118.4165059,high,4.0,4.0,4.0,4,Rock Creek,Rock Creek,Stream,100.0
+high_sierra_topix,,31,mt.eo,31,2025-07-06,2025-07-06,2025-07-06,exact,Cottonwood Pass Trail,35.7802417,-120.2070888,medium,1.0,1.0,1.0,1,Cottonwood Pass Trail,Cottonwood Pass,Gap,83.33333333333334
+high_sierra_topix,,31,mt.eo,31,2025-07-06,2025-07-06,2025-07-06,exact,Chicken Spring Lake,36.4573567,-118.2272578,high,2.0,2.0,2.0,2,Chicken Spring Lake,Chicken Spring Lake,Lake,100.0
+high_sierra_topix,,31,mt.eo,31,2025-07-06,2025-07-06,2025-07-06,exact,East of Cottonwood Pass,,,unresolved,1.0,1.0,1.0,1,East of Cottonwood Pass,Cottonwood Pass,Gap,78.94736842105263
+high_sierra_topix,,32,Schleppy,32,,2025-07-04,2025-07-06,range,"near water below 10k' (general, Hoover/NE Yosemite)",,,unresolved,3.5,3.0,4.0,level 3-4 virtually everywhere near water below 10k',water below 10k,Devilwater Creek,Stream,58.06451612903225
+high_sierra_topix,,32,Schleppy,32,,2025-07-04,2025-07-06,range,Lower Kerrick Canyon (late afternoon),38.0389218,-119.6205628,medium,3.5,3.0,4.0,Notably bad,Lower Kerrick Canyon,Kerrick Canyon,Valley,82.35294117647058
+high_sierra_topix,,32,Schleppy,32,,2025-07-04,2025-07-06,range,Snow Lake (early afternoon),38.1014546,-119.4604381,high,3.5,3.0,4.0,Notably bad,Snow Lake,Snow Lake,Lake,100.0
+high_sierra_topix,,32,Schleppy,32,,2025-07-04,2025-07-06,range,"9,600' headwaters of the West Walker river (mid morning)",,,unresolved,3.5,3.0,4.0,Notably bad,600' headwaters of the West Walker river,Lake of the Woods,Lake,49.122807017543856
+high_sierra_topix,,33,therold,33,2025-07-03,2025-07-03,2025-07-03,exact,North Lake TH to switchbacks below Loch Leven (afternoon),37.2314945,-118.6142845,medium,3.0,3.0,3.0,3,North Lake TH,North Lake,Reservoir,86.95652173913044
+high_sierra_topix,,33,therold,33,2025-07-03,2025-07-03,2025-07-03,exact,Lock Leven to Piute Lake (evening),38.1620521,-119.811053,high,0.5,0.0,1.0,<=1,Piute Lake,Piute Lake,Lake,100.0
+high_sierra_topix,,33,therold,33,2025-07-04,2025-07-04,2025-07-04,exact,Piute Lake to Piute Pass (morning),38.1620521,-119.811053,high,0.5,0.0,1.0,<=1,Piute Lake,Piute Lake,Lake,100.0
+high_sierra_topix,,33,therold,33,2025-07-04,2025-07-04,2025-07-04,exact,Piute Pass to Lower Desolation Lake vicinity (afternoon),38.2410277,-119.510723,high,2.5,2.0,3.0,2-3,Piute Pass,Piute Pass,Gap,100.0
+high_sierra_topix,,33,therold,33,2025-07-04,2025-07-04,2025-07-04,exact,Muriel Lake (evening),37.2332535,-118.6966765,high,2.5,1.0,4.0,"<=1 open, 3-4 shade/cover",Muriel Lake,Muriel Lake,Lake,100.0
+high_sierra_topix,,33,therold,33,2025-07-05,2025-07-05,2025-07-05,exact,Muriel Lake (morning),37.2332535,-118.6966765,high,3.5,3.0,4.0,3-4,Muriel Lake,Muriel Lake,Lake,100.0
+high_sierra_topix,,33,therold,33,2025-07-05,2025-07-05,2025-07-05,exact,Piute Pass to North Lake TH (morning-midday),38.2410277,-119.510723,high,2.0,1.0,3.0,increasing toward TH,Piute Pass,Piute Pass,Gap,100.0
+high_sierra_topix,,34,riemannzetagambit,34,2025-07-04,2025-07-04,2025-07-04,exact,Graveyard Meadows,,,unresolved,3.5,3.0,4.0,3-4,Graveyard Meadows,Graveyard Peak,Summit,77.41935483870968
+high_sierra_topix,,34,riemannzetagambit,34,2025-07-04,2025-07-04,2025-07-04,exact,Lower Graveyard Lakes,37.451079,-118.979793,medium,0.5,0.0,1.0,0-1,Lower Graveyard Lakes,Graveyard Lakes,Lake,83.33333333333334
+high_sierra_topix,,34,riemannzetagambit,34,2025-07-05,2025-07-05,2025-07-05,exact,Goodale Pass and Silver Pass,37.4638278,-118.9404003,high,1.0,1.0,1.0,1,Goodale Pass,Goodale Pass,Gap,100.0
+high_sierra_topix,,34,riemannzetagambit,34,2025-07-05,2025-07-05,2025-07-05,exact,N Fork Mono Creek to Mott Lake,37.4542326,-118.882838,high,3.5,3.0,4.0,3-4,Mott Lake,Mott Lake,Lake,100.0
+high_sierra_topix,,34,riemannzetagambit,34,,2025-07-05,2025-07-06,range,Mott Lake,37.4542326,-118.882838,high,1.0,1.0,1.0,1,Mott Lake,Mott Lake,Lake,100.0
+high_sierra_topix,,34,riemannzetagambit,34,2025-07-06,2025-07-06,2025-07-06,exact,Mono Creek,37.3552207,-119.0717865,high,1.5,1.0,2.0,1-2,Mono Creek,Mono Creek,Stream,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-07,2025-07-07,2025-07-07,exact,Mott Lake,37.4542326,-118.882838,high,2.0,2.0,2.0,2 at sunrise/sunset,Mott Lake,Mott Lake,Lake,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-08,2025-07-08,2025-07-08,exact,Grinnell Lake,37.4672127,-118.8509215,high,3.5,3.0,4.0,persistent even midday,Grinnell Lake,Grinnell Lake,Lake,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-09,2025-07-09,2025-07-09,exact,Cotton Lake,37.4845242,-118.8929788,high,4.0,4.0,4.0,4,Cotton Lake,Cotton Lake,Lake,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-09,2025-07-09,2025-07-09,exact,Bighorn and Shout-of-Relief,,,unresolved,2.5,2.0,3.0,midday 2-3,Bighorn,Bighorn Lake,Lake,73.6842105263158
+high_sierra_topix,,35,DaveDill,35,2025-07-10,2025-07-10,2025-07-10,exact,McGee Pass trail along Fish Creek,36.788283,-119.4173488,high,5.0,5.0,5.0,5,Fish Creek,Fish Creek,Stream,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-10,2025-07-10,2025-07-10,exact,Chief Lake,37.4700299,-118.9273279,high,4.5,4.0,5.0,4-5 at sunset/sunrise,Chief Lake,Chief Lake,Lake,100.0
+high_sierra_topix,,35,DaveDill,35,2025-07-11,2025-07-11,2025-07-11,exact,Silver Pass and JMT to Edison Lake,37.4677161,-118.9231784,high,0.0,0.0,0.0,0,Silver Pass,Silver Pass,Gap,100.0
+high_sierra_topix,,36,therold,36,2025-07-12,2025-07-12,2025-07-12,exact,Sonora Pass to Leavitt Peak,38.327691,-119.6368387,high,0.0,0.0,0.0,8:30am-5:00pm: 0,Sonora Pass,Sonora Pass,Gap,100.0
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-23,2025-06-24,range,Yosemite North Rim,,,unresolved,1.0,1.0,1.0,1,Yosemite North Rim,Yosemite Forks,Populated Place,68.75
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-24,2025-06-25,range,May Lake,37.847463,-119.4930956,high,2.0,2.0,2.0,2 but never descended too much,May Lake,May Lake,Lake,100.0
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-27,2025-06-28,range,May Lake,37.847463,-119.4930956,high,2.0,2.0,2.0,2,May Lake,May Lake,Lake,100.0
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-25,2025-06-27,range,Glen Aulin,37.91159,-119.4246052,high,2.25,2.0,2.5,2 or 2.5,Glen Aulin,Glen Aulin,Basin,100.0
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-28,2025-06-29,range,Sunrise High Sierra Camp,,,unresolved,3.75,3.5,4.0,3.5 to 4,Sunrise High Sierra Camp,Camp Sierra,Populated Place,62.857142857142854
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-29,2025-06-30,range,Merced Lake,37.738275,-119.4132319,high,0.5,0.0,1.0,0 or 1,Merced Lake,Merced Lake,Lake,100.0
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-06-30,2025-07-01,range,Little Yosemite Valley Camp,37.7258474,-119.5292639,medium,0.5,0.0,1.0,0 or 1,Little Yosemite Valley Camp,Little Yosemite Valley,Valley,89.79591836734694
+high_sierra_topix,,37,larsonjeffrey14,37,,2025-07-01,2025-07-03,range,Yosemite Valley Floor,37.7183994,-119.6820018,medium,0.0,0.0,0.0,0,Yosemite Valley Floor,Yosemite Valley,Valley,83.33333333333334
+high_sierra_topix,,38,Bradg,38,2025-07-11,2025-07-11,2025-07-11,exact,usual places along river (Agnew Meadows to 1000 Island Lake),,,unresolved,2.5,2.0,3.0,2-3,river,Traver,Populated Place,72.72727272727273
+high_sierra_topix,,38,Bradg,38,2025-07-11,2025-07-11,2025-07-11,exact,lake (Thousand Island),,,unresolved,2.0,2.0,2.0,2 at lake,lake,Woodlake,Populated Place,66.66666666666667
+high_sierra_topix,,38,Bradg,38,2025-07-11,2025-07-11,2025-07-11,exact,lake at dusk,,,unresolved,3.0,3.0,3.0,3 at dusk,lake,Woodlake,Populated Place,66.66666666666667
+high_sierra_topix,,39,sdsdsd,39,2025-07-11,2025-07-11,2025-07-11,exact,White Wolf > Pate Valley,,,unresolved,0.0,0.0,0.0,0,White Wolf > Pate Valley,Little White Deer Valley,Valley,66.66666666666667
+high_sierra_topix,,39,sdsdsd,39,2025-07-12,2025-07-12,2025-07-12,exact,Pate > Just below California Falls,,,unresolved,0.5,0.0,1.0,0-1,Pate > Just below California Falls,California Falls,Falls,64.0
+high_sierra_topix,,39,sdsdsd,39,2025-07-13,2025-07-13,2025-07-13,exact,Glen Aulin,37.91159,-119.4246052,high,3.0,3.0,3.0,3,Glen Aulin,Glen Aulin,Basin,100.0
+high_sierra_topix,,39,sdsdsd,39,2025-07-13,2025-07-13,2025-07-13,exact,Above White Cascade - Tuolumne Meadows,,,unresolved,0.5,0.0,1.0,0-1,Above White Cascade - Tuolumne Meadows,Tuolumne Meadows,Reservoir,59.25925925925925
+high_sierra_topix,,40,Kyri Freeman,40,2025-07-14,2025-07-14,2025-07-14,exact,Lower Pine Lake and Pine Creek trail (wherever trees),36.5765313,-118.2482266,medium,3.0,3.0,3.0,"3, plus biting flies",Lower Pine Lake,Lone Pine Lake,Lake,89.65517241379311
+high_sierra_topix,,41,BardoPond,41,,2025-07-11,2025-07-13,range,Ediza Lake,37.6851276,-119.1665514,high,3.0,3.0,3.0,Bothersome at breakfast and dinner time,Ediza Lake,Ediza Lake,Lake,100.0
+high_sierra_topix,,42,OutdoorRandy,42,,2025-07-14,2025-07-17,range,"North Lake to Muriel Lake (Golden Trout, Packsaddle, Desolation, Mesa, Tomahawk lakes)",37.2314945,-118.6142845,high,2.0,2.0,2.0,Rating: 2,North Lake,North Lake,Reservoir,100.0
+high_sierra_topix,,43,David_Caruso,43,,2025-07-17,2025-07-19,range,Nelson Lake,37.8098143,-119.3768355,high,0.0,0.0,0.0,0,Nelson Lake,Nelson Lake,Lake,100.0
+high_sierra_topix,,43,David_Caruso,43,,2025-07-17,2025-07-19,range,Nelson Lake (evening),37.8098143,-119.3768355,high,2.0,2.0,2.0,2,Nelson Lake,Nelson Lake,Lake,100.0
+high_sierra_topix,,43,David_Caruso,43,,2025-07-17,2025-07-19,range,Ireland Lake,37.7887771,-119.3045414,high,1.0,0.0,2.0,"same, just some in late evening",Ireland Lake,Ireland Lake,Lake,100.0
+high_sierra_topix,,44,BlasterSarge,44,,2025-07-17,2025-07-20,range,Garnet and Thousand Island Lake,37.7208769,-119.1833282,high,0.5,0.0,1.0,0-1,Thousand Island Lake,Thousand Island Lake,Lake,100.0
+high_sierra_topix,,44,BlasterSarge,44,,2025-07-17,2025-07-20,range,Clark Lakes,37.7388206,-119.1445889,high,2.0,2.0,2.0,2,Clark Lakes,Clark Lakes,Lake,100.0
+high_sierra_topix,,44,BlasterSarge,44,,2025-07-17,2025-07-20,range,Gem Lake (outside wooded areas),38.1620273,-119.7941087,high,0.5,0.0,1.0,0-1,Gem Lake,Gem Lake,Lake,100.0
+high_sierra_topix,,44,BlasterSarge,44,,2025-07-17,2025-07-20,range,Gem Lake (wooded areas ~5PM),38.1620273,-119.7941087,high,3.5,3.0,4.0,3-4,Gem Lake,Gem Lake,Lake,100.0
+high_sierra_topix,,45,therold,45,2025-07-17,2025-07-17,2025-07-17,exact,Mosquito Flat TH to Mono Pass (morning),37.4249342,-118.7726228,high,1.0,0.0,2.0,<=2,Mono Pass,Mono Pass,Gap,100.0
+high_sierra_topix,,45,therold,45,2025-07-17,2025-07-17,2025-07-17,exact,Mono Pass to Fourth Recess Jct (midday),37.4249342,-118.7726228,high,1.0,0.0,2.0,<=2,Mono Pass,Mono Pass,Gap,100.0
+high_sierra_topix,,45,therold,45,2025-07-17,2025-07-17,2025-07-17,exact,Fourth Recess Jct to Second Recess (afternoon),37.4229064,-118.8581997,high,1.0,0.0,2.0,<=2,Second Recess,Second Recess,Valley,100.0
+high_sierra_topix,,45,therold,45,2025-07-17,2025-07-17,2025-07-17,exact,Second Recess below Lower Mills Creek Lake (evening),,,unresolved,3.5,3.0,4.0,3-4,Second Recess below Lower Mills Creek Lake,Lower Mills Creek Lake,Lake,68.75
+high_sierra_topix,,45,therold,45,2025-07-18,2025-07-18,2025-07-18,exact,Lower Mills Creek Lake (morning),37.3988982,-118.8108734,high,1.0,0.0,2.0,<=2,Lower Mills Creek Lake,Lower Mills Creek Lake,Lake,100.0
+high_sierra_topix,,45,therold,45,2025-07-18,2025-07-18,2025-07-18,exact,Upper Mills Creek Lake (midday-evening),37.3905483,-118.8036956,high,1.0,0.0,2.0,<=2,Upper Mills Creek Lake,Upper Mills Creek Lake,Lake,100.0
+high_sierra_topix,,45,therold,45,2025-07-19,2025-07-19,2025-07-19,exact,Upper Mills Creek Lake to Gabbot Pass (morning),37.3905483,-118.8036956,high,0.5,0.0,1.0,<=1,Upper Mills Creek Lake,Upper Mills Creek Lake,Lake,100.0
+high_sierra_topix,,45,therold,45,2025-07-19,2025-07-19,2025-07-19,exact,Mount Gabb (midday-afternoon),37.3766314,-118.8027365,high,0.0,0.0,0.0,0,Mount Gabb,Mount Gabb,Summit,100.0
+high_sierra_topix,,45,therold,45,2025-07-19,2025-07-19,2025-07-19,exact,Upper Lake Italy basin (evening),,,unresolved,0.5,0.0,1.0,<=1,Upper Lake Italy basin,Upper Indian Lake,Lake,66.66666666666667
+high_sierra_topix,,45,therold,45,2025-07-20,2025-07-20,2025-07-20,exact,Upper Lake Italy basin to Cox Col (morning),,,unresolved,0.5,0.0,1.0,<=1,Cox Col,Carol Col,Gap,75.0
+high_sierra_topix,,45,therold,45,2025-07-20,2025-07-20,2025-07-20,exact,Cox Col to Dade Lake (midday),37.3798343,-118.7640103,high,0.5,0.0,1.0,<=1,Dade Lake,Dade Lake,Lake,100.0
+high_sierra_topix,,45,therold,45,2025-07-20,2025-07-20,2025-07-20,exact,Dade Lake to Treasure Lakes to Mosquito Flat TH (afternoon),37.3798343,-118.7640103,high,0.5,0.0,1.0,<=1,Dade Lake,Dade Lake,Lake,100.0
+high_sierra_topix,,46,pitchman,46,2025-07-17,2025-07-17,2025-07-17,exact,Dragon Lake,36.8007357,-118.3857576,high,2.0,2.0,2.0,2,Dragon Lake,Dragon Lake,Lake,100.0
+high_sierra_topix,,46,pitchman,46,2025-07-18,2025-07-18,2025-07-18,exact,Bench above 60 Lakes Basin,,,unresolved,2.5,2.5,2.5,2.5,Bench above 60 Lakes Basin,Pioneer Basin Lakes,Lake,62.22222222222222
+high_sierra_topix,,46,pitchman,46,2025-07-19,2025-07-19,2025-07-19,exact,60 Lakes Basin,36.9824359,-118.5131564,medium,3.0,3.0,3.0,3,60 Lakes Basin,Lake Basin,Basin,83.33333333333334
+high_sierra_topix,,46,pitchman,46,2025-07-20,2025-07-20,2025-07-20,exact,Basin N of Glen Pass,,,unresolved,2.0,2.0,2.0,2,Basin N of Glen Pass,Glen Pass,Gap,62.06896551724138
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-16,2025-07-16,2025-07-16,exact,meadow below Big McGee Lake (afternoon),,,unresolved,0.5,0.0,1.0,0-1,meadow below Big McGee Lake,Big McGee Lake,Lake,68.29268292682926
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-17,2025-07-17,2025-07-17,exact,Corridor Pass to Constance Lake SW shore,,,unresolved,1.0,0.0,2.0,"0-1, dusk-2",Constance Lake SW shore,Constance Lake,Lake,75.67567567567568
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-18,2025-07-18,2025-07-18,exact,Dorothy Lake inlet,38.1763937,-119.5892599,medium,1.5,1.0,2.0,1-2 in timber,Dorothy Lake inlet,Dorothy Lake,Lake,80.0
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-19,2025-07-19,2025-07-19,exact,Dorothy to Constance Lake inlet,37.5182103,-118.8679149,medium,0.0,0.0,0.0,no mosquitoes at all,Constance Lake inlet,Constance Lake,Lake,82.35294117647058
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-20,2025-07-20,2025-07-20,exact,Constance Lake to Big Mc Gee Lake over Corridor Pass,37.5182103,-118.8679149,high,1.5,1.0,2.0,only at dusk,Constance Lake,Constance Lake,Lake,100.0
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-21,2025-07-21,2025-07-21,exact,"Big Mc Gee Lake, day hikes",,,unresolved,0.5,0.0,1.0,very windy 0-1,Big Mc Gee Lake,Big McGee Lake,Lake,75.86206896551724
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-22,2025-07-22,2025-07-22,exact,Walk out 7-10:30AM (mid elevation part of trail),,,unresolved,2.5,2.0,3.0,if you stopped,Walk out 7-10:30AM,Mount Mallory,Summit,45.16129032258065
+high_sierra_topix,,47,Wandering Daisy,47,2025-07-22,2025-07-22,2025-07-22,exact,"other side of creek (log bridge), dry ecosystem",,,unresolved,0.0,0.0,0.0,no mosquitoes,other side of creek,Smoothwire Creek,Stream,62.857142857142854
+high_sierra_topix,,48,Love the Sierra,48,2025-07-17,2025-07-17,2025-07-17,exact,"Ruby to first Lake at about 10,381",37.3812518,-118.836956,medium,3.0,3.0,3.0,Mosquitos 3,first Lake,Mist Lake,Lake,84.21052631578947
+high_sierra_topix,,48,Love the Sierra,48,2025-07-18,2025-07-18,2025-07-18,exact,"Meadow West of Huntington Peak and Lake 10,922'",,,unresolved,3.0,3.0,3.0,3,Lake 10,Fox Lake,Lake,66.66666666666667
+high_sierra_topix,,48,Love the Sierra,48,2025-07-19,2025-07-19,2025-07-19,exact,"upper western lakes until 10,862'",,,unresolved,5.0,5.0,5.0,5,upper western lakes until 10,Upper Sunset Lake,Reservoir,53.333333333333336
+high_sierra_topix,,48,Love the Sierra,48,2025-07-19,2025-07-19,2025-07-19,exact,"Lake 11,025",,,unresolved,2.0,2.0,2.0,2,Lake 11,Fox Lake,Lake,66.66666666666667
+high_sierra_topix,,48,Love the Sierra,48,2025-07-21,2025-07-21,2025-07-21,exact,Trail Lake,37.4404685,-118.7743695,high,0.0,0.0,0.0,0,Trail Lake,Trail Lakes,Lake,95.23809523809523
+high_sierra_topix,,48,Love the Sierra,48,2025-07-21,2025-07-21,2025-07-21,exact,Mono Pass and switchbacks,37.4249342,-118.7726228,high,1.0,1.0,1.0,1,Mono Pass,Mono Pass,Gap,100.0
+high_sierra_topix,,48,Love the Sierra,48,2025-07-21,2025-07-21,2025-07-21,exact,Ruby junction to mosquito Flat,,,unresolved,3.0,3.0,3.0,3,mosquito Flat,Mosquito Lake,Lake,69.23076923076923
+high_sierra_topix,,49,Harlen,49,2025-07-15,2025-07-15,2025-07-15,exact,meadow 1/4 mile east of Big McGee Lake,,,unresolved,2.5,2.0,3.0,"2 in forest, 3 in evening",meadow 1,Dry Meadow,Lake,66.66666666666667
+high_sierra_topix,,49,Harlen,49,,2025-07-16,2025-07-17,range,Cotton Lake / Hortense Lakes area (over McGee Pass),37.4845242,-118.8929788,high,1.5,1.0,2.0,"1-2 throughout, 3 at breezy Cotton Lk evening",Cotton Lake,Cotton Lake,Lake,100.0
+high_sierra_topix,,49,Harlen,49,2025-07-18,2025-07-18,2025-07-18,exact,Tully Hole to Chief Lake camp near Silver Pass,37.5024377,-118.9220687,high,2.0,1.0,3.0,"1-2 all the way, 3 in low forest by Tully Hole",Tully Hole,Tully Hole,Basin,100.0
+high_sierra_topix,,49,Harlen,49,2025-07-19,2025-07-19,2025-07-19,exact,Chief Lake,37.4700299,-118.9273279,high,1.5,1.0,2.0,breezy,Chief Lake,Chief Lake,Lake,100.0
+high_sierra_topix,,49,Harlen,49,2025-07-20,2025-07-20,2025-07-20,exact,Tully Hole and Horse Heaven / Tully Lake,37.5024377,-118.9220687,high,2.5,2.0,3.0,2 and a 3 if you stopped,Tully Hole,Tully Hole,Basin,100.0
+high_sierra_topix,,49,Harlen,49,2025-07-21,2025-07-21,2025-07-21,exact,Tully Lake over McGee Pass to Big McGee Lake,37.4874142,-118.8836589,high,1.5,1.0,2.0,"nearly a 1, maybe 2 evening",Tully Lake,Tully Lake,Lake,100.0
+high_sierra_topix,,49,Harlen,49,2025-07-22,2025-07-22,2025-07-22,exact,Big McGee Lake to the TH (McGee Creek),37.488578,-118.8404718,high,2.0,2.0,2.0,maybe a 2 here and there,Big McGee Lake,Big McGee Lake,Lake,100.0
+high_sierra_topix,,50,tomba,50,,2025-07-17,2025-07-20,range,Bourland Meadow almost to West Fork Cherry Creek,38.0529751,-119.903236,high,1.0,1.0,1.0,some (1),West Fork Cherry Creek,West Fork Cherry Creek,Stream,100.0
+high_sierra_topix,,50,tomba,50,,2025-07-17,2025-07-20,range,West Fork Cherry Creek to Cherry Creek Canyon,38.0529751,-119.903236,high,0.0,0.0,0.0,none (0),West Fork Cherry Creek,West Fork Cherry Creek,Stream,100.0
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Comanche Meadow,,,unresolved,2.5,2.0,3.0,2-3,Comanche Meadow,Cow Meadow Lake,Lake,73.33333333333334
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Roaring River RS,36.7854956,-118.6267662,medium,0.0,0.0,0.0,0,Roaring River RS,Roaring River,Stream,89.65517241379311
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Big Wet Meadow,38.4149131,-120.1151891,medium,2.0,2.0,2.0,2,Big Wet Meadow,Big Meadow,Populated Place,83.33333333333334
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Upper Cloud Canyon just south of creek crossing (Whaleback),,,unresolved,2.0,2.0,2.0,2,Upper Cloud Canyon just south of creek crossing,South Fork Long Canyon,Valley,55.072463768115945
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Colby Lake,36.6282239,-118.5130243,high,1.5,1.0,2.0,1-2,Colby Lake,Colby Lake,Lake,100.0
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,Camp between Sugarloaf Meadow and Comanche Meadow,35.8275512,-118.6181752,medium,1.5,1.0,2.0,1-2,Sugarloaf Meadow,Sugarloaf Peak,Summit,80.0
+high_sierra_topix,,51,bthsieh,51,,2025-07-18,2025-07-25,range,marshy stretch half mile below Big Wet Meadow,,,unresolved,4.0,3.0,5.0,innumerable and vicious on way in,marshy stretch half mile below Big Wet Meadow,Spicer Meadow Reservoir,Reservoir,44.11764705882353
+high_sierra_topix,,52,jlweinberger,52,2025-07-20,2025-07-20,2025-07-20,exact,Cottonwood Pass Trail,35.7802417,-120.2070888,medium,2.0,2.0,2.0,(2),Cottonwood Pass Trail,Cottonwood Pass,Gap,83.33333333333334
+high_sierra_topix,,52,jlweinberger,52,2025-07-20,2025-07-20,2025-07-20,exact,Rock Creek Campsite,,,unresolved,4.0,4.0,4.0,(4),Rock Creek Campsite,Rocky Basin Creek,Stream,77.77777777777779
+high_sierra_topix,,52,jlweinberger,52,2025-07-21,2025-07-21,2025-07-21,exact,PCT from Rock Creek to Lower Crabtree Meadow,37.7038204,-118.4165059,high,2.0,2.0,2.0,(2),Rock Creek,Rock Creek,Stream,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-21,2025-07-21,2025-07-21,exact,Lower Crabtree Meadow to Crabtree Ranger Station,,,unresolved,3.5,3.0,4.0,(3/4),Lower Crabtree Meadow,Log Meadow Creek,Stream,75.67567567567568
+high_sierra_topix,,52,jlweinberger,52,2025-07-21,2025-07-21,2025-07-21,exact,Crabtree Ranger Station to Guitar Lake,36.5704486,-118.3135462,high,2.0,2.0,2.0,(2),Guitar Lake,Guitar Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-22,2025-07-22,2025-07-22,exact,Guitar Lake to Whitney and back,36.5704486,-118.3135462,high,0.0,0.0,0.0,(0),Guitar Lake,Guitar Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-22,2025-07-22,2025-07-22,exact,Guitar Lake to Crabtree Ranger Station,36.5704486,-118.3135462,high,2.0,2.0,2.0,(2),Guitar Lake,Guitar Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-22,2025-07-22,2025-07-22,exact,Crabtree Ranger Station Campsite,,,unresolved,3.0,3.0,3.0,(3),Crabtree Ranger Station Campsite,Camp Sixty One Creek,Stream,57.692307692307686
+high_sierra_topix,,52,jlweinberger,52,2025-07-23,2025-07-23,2025-07-23,exact,Crabtree Ranger Station to lower Crabtree Lake,37.1066588,-118.7952965,medium,2.5,2.0,3.0,(2/3),lower Crabtree Lake,Crabtree Lake,Lake,81.25
+high_sierra_topix,,52,jlweinberger,52,2025-07-23,2025-07-23,2025-07-23,exact,Lower Crabtree Lake to Sky Blue Lake,36.5328415,-118.2740325,high,1.0,1.0,1.0,(1),Sky Blue Lake,Sky Blue Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-23,2025-07-23,2025-07-23,exact,Sky Blue Lake Campsite,,,unresolved,1.5,1.0,2.0,(1/2),Sky Blue Lake Campsite,Sky Blue Lake,Lake,74.28571428571429
+high_sierra_topix,,52,jlweinberger,52,2025-07-24,2025-07-24,2025-07-24,exact,Sky Blue Lake to Soldier Lake (off trail),36.5328415,-118.2740325,high,1.5,1.0,2.0,(1/2),Sky Blue Lake,Sky Blue Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-24,2025-07-24,2025-07-24,exact,Outlet of Soldier Lake,,,unresolved,4.0,4.0,4.0,(4),Outlet of Soldier Lake,Soldier Lake,Lake,70.58823529411764
+high_sierra_topix,,52,jlweinberger,52,2025-07-24,2025-07-24,2025-07-24,exact,Soldier Lake to Cottonwood Lake #3,38.0470924,-119.356086,high,1.5,1.0,2.0,(1/2),Soldier Lake,Soldier Lake,Lake,100.0
+high_sierra_topix,,52,jlweinberger,52,2025-07-25,2025-07-25,2025-07-25,exact,Cottonwood Lake #3 to trailhead,,,unresolved,2.0,2.0,2.0,(2),Cottonwood Lake #3,Cotton Lake,Lake,75.86206896551724
+high_sierra_topix,,53,Janed5,53,2025-07-23,2025-07-23,2025-07-23,exact,Eagle falls trailhead up to eagle lake (noon),38.9421138,-120.122211,medium,0.0,0.0,0.0,0 @noon,eagle lake,Eagle Lake,Lake,80.0
+high_sierra_topix,,53,Janed5,53,2025-07-23,2025-07-23,2025-07-23,exact,Trail to Velma Lakes (1-4pm),,,unresolved,0.0,0.0,0.0,0,Velma Lakes,Leland Lakes,Lake,78.26086956521739
+high_sierra_topix,,53,Janed5,53,2025-07-23,2025-07-23,2025-07-23,exact,Upper Velma Lakes (5pm-evening),38.9282776,-120.1489464,high,3.0,3.0,3.0,swarming and biting,Upper Velma Lakes,Upper Velma Lake,Lake,96.96969696969697
+high_sierra_topix,,53,Janed5,53,2025-07-23,2025-07-23,2025-07-23,exact,Fontinilis Lake,38.9205503,-120.1532133,medium,3.0,3.0,3.0,3,Fontinilis Lake,Fontanillis Lake,Lake,90.32258064516128
+high_sierra_topix,,53,Janed5,53,2025-07-24,2025-07-24,2025-07-24,exact,Fontinilis lake trail (near water),,,unresolved,3.0,3.0,3.0,3,Fontinilis lake trail,Fontanillis Lake,Lake,70.27027027027026
+high_sierra_topix,,53,Janed5,53,2025-07-24,2025-07-24,2025-07-24,exact,Fontinilis lake trail (away from water),,,unresolved,2.0,2.0,2.0,2,Fontinilis lake trail,Fontanillis Lake,Lake,70.27027027027026
+high_sierra_topix,,53,Janed5,53,2025-07-24,2025-07-24,2025-07-24,exact,Trail to Dick's Lake,38.9119459,-120.142982,high,2.0,2.0,2.0,2,Dick's Lake,Dicks Lake,Lake,95.23809523809523
+high_sierra_topix,,53,Janed5,53,2025-07-24,2025-07-24,2025-07-24,exact,Dick's Lake,38.9119459,-120.142982,high,3.0,3.0,3.0,swarming and biting near water,Dick's Lake,Dicks Lake,Lake,95.23809523809523
+high_sierra_topix,,53,Janed5,53,2025-07-24,2025-07-24,2025-07-24,exact,Trail back to eagle falls,38.9517041,-120.1112379,medium,1.5,1.0,2.0,2 to 1,eagle falls,Eagle Falls,Falls,81.81818181818181
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-20,2025-07-20,2025-07-20,exact,Timberline Tarns,37.1324265,-118.5494676,high,2.0,2.0,2.0,2,Timberline Tarns,Timberline Tarns,Lake,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-21,2025-07-21,2025-07-21,exact,Dusy Basin,37.0974345,-118.5589949,high,2.0,2.0,2.0,2,Dusy Basin,Dusy Basin,Basin,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-24,2025-07-24,2025-07-24,exact,High Trail,,,unresolved,0.0,0.0,0.0,0,High Trail,High Peak,Summit,63.1578947368421
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-24,2025-07-24,2025-07-24,exact,Thousand Island Lake,37.7208769,-119.1833282,high,1.0,1.0,1.0,few at dusk and dawn,Thousand Island Lake,Thousand Island Lake,Lake,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-25,2025-07-25,2025-07-25,exact,Garnet Lake,37.7090179,-119.1626064,high,0.0,0.0,0.0,0,Garnet Lake,Garnet Lake,Lake,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-26,2025-07-26,2025-07-26,exact,Iceberg Lake,37.6705442,-119.1690765,high,0.0,0.0,0.0,0,Iceberg Lake,Iceberg Lake,Lake,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-27,2025-07-27,2025-07-27,exact,Ediza Lake,37.6851276,-119.1665514,high,0.25,0.0,0.5,"0, maybe .5 at dusk",Ediza Lake,Ediza Lake,Lake,100.0
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-28,2025-07-28,2025-07-28,exact,Trail down from Ediza (between Ediza and JMT),,,unresolved,1.0,1.0,1.0,1,Ediza,Ediza Lake,Lake,66.66666666666667
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-28,2025-07-28,2025-07-28,exact,trees along San Joaquin River,36.8638375,-119.8170928,medium,1.0,1.0,1.0,1,San Joaquin River,San Joaquin River Estates,Populated Place,80.95238095238095
+high_sierra_topix,,54,OpenSkiesBeckon,54,2025-07-28,2025-07-28,2025-07-28,exact,Starkweather Lake and up Starkweather Trail,37.6629282,-119.0738009,high,0.0,0.0,0.0,0,Starkweather Lake,Starkweather Lake,Lake,100.0
+high_sierra_topix,,55,SSSdave,55,,2025-07-24,2025-07-29,range,Green Creek headwater basins (dry sunny areas),,,unresolved,1.0,1.0,1.0,1,Green Creek headwater basins,Grass Lake Creek,Stream,63.63636363636363
+high_sierra_topix,,55,SSSdave,55,,2025-07-24,2025-07-29,range,Green Creek headwater basins (forest),,,unresolved,2.0,2.0,2.0,2,Green Creek headwater basins,Grass Lake Creek,Stream,63.63636363636363
+high_sierra_topix,,55,SSSdave,55,,2025-07-24,2025-07-29,range,Green Creek headwater basins (wet areas/late day),,,unresolved,3.0,3.0,3.0,3,Green Creek headwater basins,Grass Lake Creek,Stream,63.63636363636363
+high_sierra_topix,,55,SSSdave,55,,2025-07-24,2025-07-29,range,seep vegetation trail areas approaching Green Lake,,,unresolved,3.5,3.0,4.0,Worst squeet zone,seep vegetation trail areas approaching Green Lake,Green Treble Lake,Lake,44.776119402985074
+high_sierra_topix,,56,Kyri Freeman,56,,2025-07-28,2025-07-30,range,Tyee Lakes (Lake 5),37.1808081,-118.5802094,high,3.0,3.0,3.0,I'd rate them a 3,Tyee Lakes,Tyee Lakes,Lake,100.0
+high_sierra_topix,,57,agrumbach,57,,2025-07-21,2025-07-27,range,"Chiquito Lake, Moraine Meadows, and Triple Peak Fork Crossing",37.5358035,-119.4374988,high,4.0,4.0,4.0,4,Chiquito Lake,Chiquito Lake,Lake,100.0
+high_sierra_topix,,57,agrumbach,57,,2025-07-21,2025-07-27,range,forest below Post Peak Pass and Rutherford Lake,37.5980941,-119.3717344,high,2.5,2.0,3.0,2 or 3,Rutherford Lake,Rutherford Lake,Reservoir,100.0
+high_sierra_topix,,57,agrumbach,57,,2025-07-21,2025-07-27,range,"trails and Chain, Ottaway, Red Devil, Unnamed below Isberg and Post Passes, Rutherford, and Breeze Lakes",37.5760633,-119.3919544,high,0.5,0.0,1.0,0 to 1,Breeze Lakes,Breeze Lake,Lake,95.65217391304348
+high_sierra_topix,,58,natedog14,58,,2025-08-01,2025-08-03,range,Humphrey's Basin (daytime),37.2652124,-118.7065039,high,0.0,0.0,0.0,0 during most of the day,Humphrey's Basin,Humphreys Basin,Basin,96.7741935483871
+high_sierra_topix,,58,natedog14,58,,2025-08-01,2025-08-03,range,Humphrey's Basin (sunrise/sunset),37.2652124,-118.7065039,high,1.5,1.0,2.0,1-2 around sunrise and sunset,Humphrey's Basin,Humphreys Basin,Basin,96.7741935483871
+high_sierra_topix,,59,rayfound,59,,2025-08-01,2025-08-02,range,Little Lakes Valley (LLV),37.4493549,-118.7373204,high,0.5,0.0,1.0,"0-1, though perhaps due to persistent wind",Little Lakes Valley,Little Lakes Valley,Valley,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-07-22,2025-07-28,range,White Wolf/Tuolumne,37.8693671,-119.6501705,high,0.0,0.0,0.0,0/5,White Wolf,White Wolf,Populated Place,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-07-22,2025-07-28,range,Lyell Canyon,37.8682894,-119.3068826,high,1.0,1.0,1.0,1/5,Lyell Canyon,Lyell Canyon,Valley,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-07-22,2025-07-28,range,Thousand Island Lake,37.7208769,-119.1833282,high,0.0,0.0,0.0,0/5,Thousand Island Lake,Thousand Island Lake,Lake,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-07-22,2025-07-28,range,Ediza Lake,37.6851276,-119.1665514,high,1.0,1.0,1.0,1/5,Ediza Lake,Ediza Lake,Lake,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-07-22,2025-07-28,range,Minaret Creek (near Devil's Postpile),37.6385468,-119.0881909,high,2.0,2.0,2.0,2/5,Minaret Creek,Minaret Creek,Stream,100.0
+high_sierra_topix,,60,ianwestc,60,,2025-06-01,2025-06-30,inferred,"Yosemite (general, June)",,,unresolved,4.5,4.0,5.0,Mosquitoes were freaking TERRIBLE in June,Yosemite,Yosemite Lake,Reservoir,76.19047619047619
+high_sierra_topix,,61,tomba,61,,2025-08-01,2025-08-03,range,May Lake to the lakes N of Mt. Hoffman,37.847463,-119.4930956,high,0.0,0.0,0.0,"None (0) everywhere, except cowboy camping single mosquito",May Lake,May Lake,Lake,100.0
+high_sierra_topix,,62,wildhiker,62,,2025-07-29,2025-08-04,range,"Mt Conness circle (west then east side), ~10,000 ft",,,unresolved,1.5,1.0,2.0,"level 1, up to level 2 late in day in forest campsites",Mt Conness circle,Mount Conness,Summit,66.66666666666667
+high_sierra_topix,,63,druid,63,,2025-07-31,2025-08-05,range,"Big McGee, Cotton, Grinnell, Big McGee area",,,unresolved,0.5,0.0,1.0,Everywhere 0-1,Big McGee,Big McGee Lake,Lake,78.26086956521739
+high_sierra_topix,,64,roving chestnut,64,,2025-08-02,2025-08-06,range,"Tuolumne meadows, Glen Aulin, Waterwheel falls",37.91159,-119.4246052,high,0.5,0.0,1.0,0-1 everywhere,Glen Aulin,Glen Aulin,Basin,100.0
+high_sierra_topix,,65,Schleppy,65,,2025-08-09,2025-08-11,range,"Hoover and NE Yosemite Wildernesses (general, 8000'-12000')",,,unresolved,0.0,0.0,0.0,0 - Everywhere except,Hoover,Hoover Lakes,Lake,66.66666666666667
+high_sierra_topix,,65,Schleppy,65,,2025-08-09,2025-08-11,range,Green Lake (around sunset),37.1693912,-118.5319102,high,1.0,1.0,1.0,1,Green Lake,Green Lake,Lake,100.0
+high_sierra_topix,,66,phoenix2000,66,2025-08-10,2025-08-10,2025-08-10,exact,Crabtree Trailhead to West Fork of the Cherry Creek via Bell Meadow trail,38.0529751,-119.903236,medium,0.0,0.0,0.0,0,West Fork of the Cherry Creek,West Fork Cherry Creek,Stream,86.27450980392157
+high_sierra_topix,,66,phoenix2000,66,2025-08-11,2025-08-11,2025-08-11,exact,Big Lake,38.1224126,-119.7977846,high,0.0,0.0,0.0,0,Big Lake,Big Lake,Lake,100.0
+high_sierra_topix,,66,phoenix2000,66,2025-08-12,2025-08-12,2025-08-12,exact,Letora Lake (and pond before Cow Meadow Lake),38.1390447,-119.7204491,high,0.5,0.0,1.0,0 but some mosquitos during the day,Letora Lake,Lertora Lake,Lake,95.65217391304348
+high_sierra_topix,,66,phoenix2000,66,2025-08-13,2025-08-13,2025-08-13,exact,Upper Twin Lake,37.2959567,-119.1599446,high,0.5,0.0,1.0,0-1,Upper Twin Lake,Upper Twin Lake,Lake,100.0
+high_sierra_topix,,66,phoenix2000,66,2025-08-14,2025-08-14,2025-08-14,exact,Emigrant Lake,38.1743091,-119.6976082,high,0.0,0.0,0.0,0,Emigrant Lake,Emigrant Lake,Lake,100.0
+high_sierra_topix,,66,phoenix2000,66,2025-08-15,2025-08-15,2025-08-15,exact,Piute Lake,38.1620521,-119.811053,high,0.0,0.0,0.0,0,Piute Lake,Piute Lake,Lake,100.0
+high_sierra_topix,,66,phoenix2000,66,2025-08-16,2025-08-16,2025-08-16,exact,Piute Lake to Crabtree Trailhead,38.1620521,-119.811053,high,0.0,0.0,0.0,0,Piute Lake,Piute Lake,Lake,100.0
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,Leavitt Meadow TH to Lower Piute Meadow,,,unresolved,0.0,0.0,0.0,basically no mosquitoes,Leavitt Meadow TH,Leavitt Peak,Summit,68.96551724137932
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,Lower Piute Meadow to Lakes below Hawksbeak Peak,,,unresolved,0.5,0.0,1.0,a few mosquitoes (0-1),Lakes below Hawksbeak Peak,Hawksbeak Peak,Summit,70.0
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,Over pass to head of Stubblefield Canyon,38.0389948,-119.6203155,medium,0.5,0.0,1.0,0-1 mosquitoes,head of Stubblefield Canyon,Stubblefield Canyon,Valley,82.6086956521739
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,Down Stubblefield Canyon (lower bushwhacking/wet meadows),38.0389948,-119.6203155,medium,1.5,1.0,2.0,1-2 in lower bushwhacking areas,Down Stubblefield Canyon,Stubblefield Canyon,Valley,88.37209302325581
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,PCT via Tildon Lake and up to Grace Meadow,38.1043551,-119.6033391,medium,1.0,0.0,2.0,"no mosquitoes at Tildon, 0-2 near Grace Meadow",Tildon Lake,Tilden Lake,Lake,90.9090909090909
+high_sierra_topix,,67,Wandering Daisy,67,,2025-08-08,2025-08-14,range,"PCT, Upper Piute junction to Lower Piute Meadow, Fremont Lake tr junction",,,unresolved,0.0,0.0,0.0,"very hot, no mosquitoes at all",Lower Piute Meadow,Summit Meadow Lake,Lake,66.66666666666667
+high_sierra_topix,,68,Matt_W,68,,2025-08-14,2025-08-17,range,North Lake-South Lake Loop (general),,,unresolved,0.5,0.0,1.0,almost no mosquito pressure,North Lake-South Lake Loop,Lakewood Park Lake,Reservoir,59.09090909090908
+high_sierra_topix,,68,Matt_W,68,,2025-08-14,2025-08-17,range,"Hutchinson Meadow (east side, near confluence of French Canyon creek and Piute Creek)",,,unresolved,2.5,2.0,3.0,high activity until well after midnight,Hutchinson Meadow,Johnston Meadow,Lake,75.0
+high_sierra_topix,,69,paul,69,,2025-08-07,2025-08-18,range,"Lewisville creek, Harrington pass, swamp lakes, slide lakes, Kennedy lakes, volcanic lakes, state lakes, horseshoe lakes",38.2607253,-119.6532791,medium,2.5,2.0,3.0,"bad morning and evening, not too bad mid day",Kennedy lakes,Kennedy Lake,Lake,88.0
+high_sierra_topix,,69,paul,69,,2025-08-07,2025-08-18,range,"Lake 10236, Marian, lake basin, upper muro blanco, taboose pass area, bench lake, Pinchot pass & woods creek to roads end",36.9824359,-118.5131564,medium,0.5,0.0,1.0,0-1,lake basin,Lake Basin,Basin,80.0
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,North Lake campground up to Loch Leven along Bishop Crk,37.2314172,-118.655346,high,2.5,2.0,3.0,2 to 3,Loch Leven,Loch Leven,Lake,100.0
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,Piute Pass thru Lower Golden Trout Lk,38.2410277,-119.510723,high,1.5,1.0,2.0,1-2,Piute Pass,Piute Pass,Gap,100.0
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,Lower Honeymoon Lk,37.2521431,-118.7664832,high,0.5,0.0,1.0,0-1,Lower Honeymoon Lk,Lower Honeymoon Lake,Lake,94.73684210526316
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,Piute Crk (away from creek),38.132417,-119.8515679,medium,0.5,0.0,1.0,0-1,Piute Crk,Piute Creek,Stream,90.0
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,Piute Crk (slower marshier sections),38.132417,-119.8515679,medium,1.5,0.0,3.0,up to a 3,Piute Crk,Piute Creek,Stream,90.0
+high_sierra_topix,,71,dbargaehr1,71,,2025-08-18,2025-08-25,range,Tomahawk Lk,37.2576754,-118.7269124,medium,0.0,0.0,0.0,"0, but raining cats and dogs",Tomahawk Lk,Tomahawk Lake,Lake,91.66666666666666
+high_sierra_topix,,72,hill,72,,2025-08-23,2025-08-31,range,Post Corral Creek,37.0846648,-118.9037222,high,2.5,2.0,3.0,2-3,Post Corral Creek,Post Corral Creek,Stream,100.0
+high_sierra_topix,,72,hill,72,,2025-08-23,2025-08-31,range,North Fork Kings River,36.304673,-119.8693023,high,1.5,1.0,2.0,1-2,North Fork Kings River,North Fork Kings River,Stream,100.0
+high_sierra_topix,,72,hill,72,,2025-08-23,2025-08-31,range,"Higher up lakes (above 10,000 ft)",,,unresolved,0.5,0.0,1.0,0-1,Higher up lakes,Fisher Lakes,Lake,66.66666666666667
+high_sierra_topix,,73,David_Caruso,73,,2025-08-30,2025-09-01,range,Fourth Recess Lake (evening),37.4375445,-118.7856407,high,1.0,1.0,1.0,Only a 1 in the evening,Fourth Recess Lake,Fourth Recess Lake,Lake,100.0
+high_sierra_topix,,73,David_Caruso,73,,2025-08-30,2025-09-01,range,Mono Pass-Gabbot-Dade Lake route (otherwise),,,unresolved,0.0,0.0,0.0,Otherwise bug free trip,Mono Pass-Gabbot-Dade Lake route,Waterhouse Lake,Lake,51.06382978723405
+high_sierra_topix,,74,Schleppy,74,,2025-08-30,2025-09-01,range,"Leavitt Meadows, W Fork of the Walker River, Tower Lake, Tilden Lake, Jack Main Canyon, Dorothy Lake Pass route (7,150'-10,150')",38.1600777,-119.5514648,high,0.0,0.0,0.0,zero everywhere at all times of day,Tower Lake,Tower Lake,Lake,100.0
+high_sierra_topix,,76,maxr22,76,,2024-05-26,2024-05-27,range,second lake and Davis lake (Hilton Lakes from Rock Creek),37.1284991,-118.720312,medium,1.0,1.0,1.0,1 at both,Davis lake,Davis Lake,Lake,90.0
+high_sierra_topix,,77,wulfman,77,2024-06-02,2024-06-02,2024-06-02,inferred,"Maude Lake, Desolation Wilderness (8000ft)",38.8900208,-120.2109096,high,0.0,0.0,0.0,0,Maude Lake,Maude Lake,Lake,100.0
+high_sierra_topix,,77,wulfman,77,2024-06-02,2024-06-02,2024-06-02,inferred,"border of Desolation Wilderness, towards Wrights Lake (7000ft)",38.8490907,-120.2326861,high,1.0,1.0,1.0,1,Wrights Lake,Wrights Lake,Lake,100.0
+high_sierra_topix,,79,SJSHARKS23,79,2024-06-01,2024-06-01,2024-06-01,exact,Trail to Roosevelt & Lane Lake,37.9707021,-119.3344784,medium,0.0,0.0,0.0,0,Roosevelt & Lane Lake,Roosevelt Lake,Lake,80.0
+high_sierra_topix,,79,SJSHARKS23,79,2024-06-01,2024-06-01,2024-06-01,exact,Trail between Lane Lake & Hidden Lake trail junction,,,unresolved,1.5,1.0,2.0,1-2,Trail,Trail Pass,Gap,66.66666666666667
+high_sierra_topix,,80,maxr22,80,2024-06-04,2024-06-04,2024-06-04,exact,LeConte Canyon,39.5800986,-120.3023873,medium,3.5,3.0,4.0,3-4,LeConte Canyon,Lemon Canyon,Valley,84.61538461538461
+high_sierra_topix,,81,sdsdsd,81,,2024-06-05,2024-06-06,range,"Lakes 1-7, Summit, Black Lakes",37.1323186,-118.4945308,high,0.5,0.0,1.0,0-1,Black Lakes,Black Lake,Lake,95.23809523809523
+high_sierra_topix,,81,sdsdsd,81,,2024-06-05,2024-06-06,range,Summit Lake (morning/dusk/evening),37.2037155,-118.9906329,high,2.0,2.0,2.0,2,Summit Lake,Summit Lake,Lake,100.0
+high_sierra_topix,,82,Bruce B,82,2024-06-03,2024-06-03,2024-06-03,exact,Horseshoe Meadows trailhead,,,unresolved,1.0,1.0,1.0,1 on 6/3,Horseshoe Meadows trailhead,Table Meadow Creek,Stream,62.22222222222222
+high_sierra_topix,,82,Bruce B,82,2024-06-06,2024-06-06,2024-06-06,exact,Horseshoe Meadows trailhead,,,unresolved,2.0,2.0,2.0,increased to 2 on 6/6,Horseshoe Meadows trailhead,Table Meadow Creek,Stream,62.22222222222222
+high_sierra_topix,,82,Bruce B,82,,2024-06-03,2024-06-06,range,"Cirque Lake, South Fork Lakes, Muir Lake area",37.3332979,-118.9052195,high,1.0,1.0,1.0,consistent 1 for the duration,Cirque Lake,Cirque Lake,Lake,100.0
+high_sierra_topix,,82,Bruce B,82,2024-06-06,2024-06-06,2024-06-06,exact,Woolyback Peak,,,unresolved,0.0,0.0,0.0,0,Woolyback Peak,Wonoga Peak,Summit,72.0
+high_sierra_topix,,83,Flamingo,83,,2024-06-08,2024-06-09,range,Kennedy Creek and Lake (day),36.9349393,-118.6698246,high,0.0,0.0,0.0,0,Kennedy Creek,Kennedy Creek,Stream,100.0
+high_sierra_topix,,83,Flamingo,83,,2024-06-08,2024-06-09,range,Kennedy Creek and Lake (dusk/dawn),36.9349393,-118.6698246,high,1.0,1.0,1.0,1,Kennedy Creek,Kennedy Creek,Stream,100.0
+high_sierra_topix,,84,paul,84,,2024-06-07,2024-06-09,range,"Cole Creek Lakes, Munson Meadow, unnamed lake west of Munson meadow, Long Lake, Black Rock Lake, Beebe Lake",38.5826156,-120.091074,high,0.5,0.0,1.0,"0-1 everywhere, 1+ at dusk at Beebe",Cole Creek Lakes,Cole Creek Lakes,Lake,100.0
+high_sierra_topix,,85,looks easy from here,85,,2024-06-09,2024-06-10,range,Sonora Pass,38.327691,-119.6368387,high,0.75,0.0,1.5,0-1.5,Sonora Pass,Sonora Pass,Gap,100.0
+high_sierra_topix,,86,riemannzetagambit,86,,2024-06-15,2024-06-16,range,Kennedy Meadows to Relief Reservoir (general),38.2704189,-119.738145,high,0.0,0.0,0.0,0 most of the time,Relief Reservoir,Relief Reservoir,Reservoir,100.0
+high_sierra_topix,,86,riemannzetagambit,86,,2024-06-15,2024-06-16,range,"reservoir, near willow bushes (dusk)",,,unresolved,1.5,1.0,2.0,1-2,reservoir,Bear Reservoir,Reservoir,78.26086956521739
+high_sierra_topix,,87,Fly Guy Dave,87,,2024-06-13,2024-06-15,range,Virginia Lakes area,38.050383,-119.2676732,medium,0.75,0.0,1.5,0-1.5,Virginia Lakes area,Virginia Lakes,Lake,84.84848484848484
+high_sierra_topix,,88,Elizsgrace,88,,2024-06-15,2024-06-16,range,Emigrant Wilderness at 8700' (Bubblegum Lake),,,unresolved,0.0,0.0,0.0,0,Emigrant Wilderness,Emigrant Hill,Summit,68.75
+high_sierra_topix,,88,Elizsgrace,88,,2024-06-15,2024-06-16,range,Emigrant Wilderness at 7680' (Bear Lake),,,unresolved,2.5,2.0,3.0,2 or 3,Emigrant Wilderness,Emigrant Hill,Summit,68.75
+high_sierra_topix,,89,nisaka,89,,2024-06-20,2024-06-23,range,"Blue Lakes Road off Hwy 88, 7500'-9800', Deadwood Peak area",37.3135128,-119.6858159,medium,3.0,3.0,3.0,"3, only mellowed in wind",Deadwood Peak area,Deadwood Peak,Summit,83.87096774193549
+high_sierra_topix,,89,nisaka,89,,2024-06-20,2024-06-23,range,"Meyers/Christmas Valley off Hwy 89, 6500'",38.8560185,-120.0129603,high,2.5,2.0,3.0,"2-3, worse by water and evenings",Meyers,Meyers,Populated Place,100.0
+high_sierra_topix,,90,David_Caruso,90,,2024-06-19,2024-06-23,range,Stubblefield/Thompson Canyons,38.0591132,-119.5882931,high,2.0,2.0,2.0,2,Thompson Canyons,Thompson Canyon,Valley,96.7741935483871
+high_sierra_topix,,90,David_Caruso,90,,2024-06-19,2024-06-23,range,Peeler Lake,38.1204494,-119.4678912,high,2.0,2.0,2.0,2,Peeler Lake,Peeler Lake,Lake,100.0
+high_sierra_topix,,90,David_Caruso,90,,2024-06-19,2024-06-23,range,Kerrick Meadow/Rancheria Creek PCT,36.2021694,-118.7614821,medium,4.0,4.0,4.0,4,Rancheria Creek PCT,Rancheria Creek,Stream,88.23529411764706
+high_sierra_topix,,90,David_Caruso,90,,2024-06-19,2024-06-23,range,Lake 9774T,,,unresolved,4.0,4.0,4.0,4,Lake 9774T,Fox Lake,Lake,55.55555555555556
+high_sierra_topix,,91,mt.eo,91,2024-06-17,2024-06-17,2024-06-17,exact,June Lake,37.7886445,-119.0736117,high,0.5,0.0,1.0,0/1,June Lake,June Lake,Lake,100.0
+high_sierra_topix,,91,mt.eo,91,2024-06-18,2024-06-18,2024-06-18,exact,Tuolumne Meadows,37.8775599,-119.3770141,high,2.0,1.0,3.0,"1 early AM, 3 after 1pm",Tuolumne Meadows,Tuolumne Meadows,Reservoir,100.0
+high_sierra_topix,,91,mt.eo,91,2024-06-18,2024-06-18,2024-06-18,exact,Glen Aulin,37.91159,-119.4246052,high,2.0,2.0,2.0,2,Glen Aulin,Glen Aulin,Basin,100.0
+high_sierra_topix,,91,mt.eo,91,2024-06-19,2024-06-19,2024-06-19,exact,Silver Lake (June Lake Loop),37.7771263,-119.1252749,high,2.5,2.0,3.0,2/3,Silver Lake,Silver Lake,Lake,100.0
+high_sierra_topix,,91,mt.eo,91,2024-06-20,2024-06-20,2024-06-20,exact,Little Lakes Valley,37.4493549,-118.7373204,high,3.0,3.0,3.0,3,Little Lakes Valley,Little Lakes Valley,Valley,100.0
+high_sierra_topix,,91,mt.eo,91,2024-06-21,2024-06-21,2024-06-21,exact,Bishop Pass Trail,37.3624293,-118.3923321,medium,2.0,2.0,2.0,2,Bishop Pass Trail,Bishop Trail Park,Populated Place,88.23529411764706
+high_sierra_topix,,91,mt.eo,91,2024-06-22,2024-06-22,2024-06-22,exact,Bishop,37.3635404,-118.3951101,high,0.0,0.0,0.0,0,Bishop,Bishop,Populated Place,100.0
+high_sierra_topix,,92,wildhiker,92,,2024-06-21,2024-06-22,range,"Yosemite Creek trail (Tioga Rd to top of Yosemite Falls), damp forest/creek",37.7424255,-119.5946096,medium,3.0,3.0,3.0,level 3 all day long,Yosemite Creek trail,Yosemite Creek,Stream,82.35294117647058
+high_sierra_topix,,92,wildhiker,92,,2024-06-21,2024-06-22,range,high open knoll far from water near Eagle Peak trail junction,,,unresolved,1.0,1.0,1.0,only level 1,water,Mather,Populated Place,72.72727272727273
+high_sierra_topix,,93,sarab609,93,,2024-06-21,2024-06-23,range,"Robinson Creek to Crown Lake, Mule Pass, Little Slide Canyon (7000-10500ft)",38.2724193,-119.2521,high,3.5,3.0,4.0,"moderate to heavy, worst 8000-9000ft",Robinson Creek,Robinson Creek,Stream,100.0
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,Copper creek to Mungoat pass,36.7938277,-118.5803768,medium,1.0,1.0,1.0,pleasant 1,Copper creek,Copper Creek,Stream,91.66666666666666
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,southernmost Kid Lake,,,unresolved,4.0,4.0,4.0,4,southernmost Kid Lake,Rutherford Lake,Reservoir,61.111111111111114
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,between southernmost Kid Lake and slope up to lake below Glacier Saddle,,,unresolved,3.5,3.0,4.0,3-4,lake below Glacier Saddle,Glacier Valley,Valley,61.53846153846154
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,Kid Lake just below Glacier Saddle,,,unresolved,1.0,1.0,1.0,1,Kid Lake just below Glacier Saddle,South Guard Lake,Lake,56.00000000000001
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,glacier lakes,36.8997635,-118.581612,medium,5.0,5.0,5.0,Pretty severe,glacier lakes,Glacier Lakes,Lake,84.61538461538461
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,glacier valley,36.9216833,-118.5846526,medium,3.0,3.0,3.0,3,glacier valley,Glacier Valley,Valley,85.71428571428572
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,up to granite pass along dougherty creek,36.9624384,-118.6420468,medium,3.5,3.0,4.0,3-4,dougherty creek,Dougherty Creek,Stream,86.66666666666667
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,top of glacier pass,,,unresolved,3.0,3.0,3.0,3,top of glacier pass,Glacier Pass,Gap,64.51612903225806
+high_sierra_topix,,94,maxr22,94,,2024-06-19,2024-06-22,range,granite basin,36.8541056,-118.6081559,medium,5.0,5.0,5.0,bug apocalypse,granite basin,Granite Basin,Basin,84.61538461538461
+high_sierra_topix,,95,luckyp,95,,2024-06-22,2024-06-23,range,High Trail / Thousand Island Lakes,37.7208769,-119.1833282,high,2.0,2.0,2.0,2,Thousand Island Lakes,Thousand Island Lake,Lake,97.5609756097561
+high_sierra_topix,,95,luckyp,95,,2024-06-22,2024-06-23,range,River Trail,,,unresolved,3.0,3.0,3.0,3,River Trail,Tule River,Stream,76.19047619047619
+high_sierra_topix,,96,windknot,96,,2024-06-22,2024-06-23,range,Bayview TH,,,unresolved,0.0,0.0,0.0,0,Bayview TH,Fairview,Populated Place,55.55555555555556
+high_sierra_topix,,96,windknot,96,,2024-06-22,2024-06-23,range,Trail up to PCT (marshier areas),,,unresolved,2.0,2.0,2.0,2,Trail up,Trail Pass,Gap,55.55555555555556
+high_sierra_topix,,96,windknot,96,,2024-06-22,2024-06-23,range,Fontanillis Lake (evening),38.9205503,-120.1532133,high,2.5,2.0,3.0,2-3,Fontanillis Lake,Fontanillis Lake,Lake,100.0
+high_sierra_topix,,97,bthsieh,97,,2024-06-20,2024-06-22,range,Trailhead to Camp Lake,38.1659753,-119.8803062,high,2.0,2.0,2.0,2,Camp Lake,Camp Lake,Lake,100.0
+high_sierra_topix,,97,bthsieh,97,,2024-06-20,2024-06-22,range,Piute Creek,38.132417,-119.8515679,high,3.5,3.0,4.0,3-4,Piute Creek,Piute Creek,Stream,100.0
+high_sierra_topix,,97,bthsieh,97,,2024-06-20,2024-06-22,range,W Fork Cherry Creek,38.0529751,-119.903236,high,2.5,2.0,3.0,2-3,W Fork Cherry Creek,West Fork Cherry Creek,Stream,92.6829268292683
+high_sierra_topix,,97,bthsieh,97,,2024-06-20,2024-06-22,range,Rosascoe Lake,38.1410329,-119.8185981,high,2.5,2.0,3.0,2-3,Rosascoe Lake,Rosasco Lake,Lake,96.0
+high_sierra_topix,,97,bthsieh,97,,2024-06-20,2024-06-22,range,Pingree Lake,38.1344143,-119.7986414,high,3.5,3.0,4.0,3-4,Pingree Lake,Pingree Lake,Lake,100.0
+high_sierra_topix,,98,looks easy from here,98,,2024-06-22,2024-06-25,range,Crabtree TH to Camp Yellowhammer,36.8435582,-119.089836,medium,3.5,3.0,4.0,"3-4+, definitely worsening",Crabtree TH,Crabtree,Populated Place,84.21052631578947
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-21,2024-06-21,2024-06-21,exact,Ruby Lake,37.4150108,-118.7704284,high,1.5,1.0,2.0,1-2 only at dusk,Ruby Lake,Ruby Lake,Lake,100.0
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-22,2024-06-22,2024-06-22,exact,Lk 10825 Pioneer Basin,,,unresolved,1.5,1.0,2.0,1-2 dusk and dawn,Lk 10825 Pioneer Basin,Pioneer Basin Lakes,Lake,78.04878048780488
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-23,2024-06-23,2024-06-23,exact,Lk 10862 Pioneer Basin,,,unresolved,0.5,0.0,1.0,0-1 saved by strong wind,Lk 10862 Pioneer Basin,Pioneer Basin Lakes,Lake,78.04878048780488
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-24,2024-06-24,2024-06-24,exact,Fourth Recess Lake,37.4375445,-118.7856407,high,1.5,1.0,2.0,1-2 dawn and dusk,Fourth Recess Lake,Fourth Recess Lake,Lake,100.0
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-25,2024-06-25,2024-06-25,exact,Ruby Lake,37.4150108,-118.7704284,high,2.5,2.0,3.0,"calm, beasties out, then severe storm",Ruby Lake,Ruby Lake,Lake,100.0
+high_sierra_topix,,99,Wandering Daisy,99,2024-06-26,2024-06-26,2024-06-26,exact,Ruby Lake trailhead area,,,unresolved,0.5,0.0,1.0,"nasty skeets up early, few at trailhead",Ruby Lake trailhead area,Spearhead Lake,Lake,63.1578947368421
+high_sierra_topix,,100,mschnaidt,100,2024-06-24,2024-06-24,2024-06-24,exact,Wrights Lake equestrian TH to Twin Lakes Grouse lake junction,,,unresolved,2.5,2.0,3.0,@10AM,Wrights Lake equestrian TH,Wrights Lake,Lake,63.1578947368421
+high_sierra_topix,,100,mschnaidt,100,2024-06-24,2024-06-24,2024-06-24,exact,above the junction,,,unresolved,1.0,1.0,1.0,1,above the junction,Blue Lake Junction,Populated Place,61.111111111111114
+high_sierra_topix,,100,mschnaidt,100,2024-06-24,2024-06-24,2024-06-24,exact,Grouse lake (during day),36.8582714,-118.5895766,medium,2.0,2.0,2.0,2,Grouse lake,Grouse Lake,Lake,90.9090909090909
+high_sierra_topix,,101,Hiker Damion,101,2024-06-25,2024-06-25,2024-06-25,exact,Onion Valley CG,39.5185621,-120.2858071,medium,1.5,1.5,1.5,1.5,Onion Valley CG,Onion Valley,Valley,88.88888888888889
+high_sierra_topix,,101,Hiker Damion,101,2024-06-26,2024-06-26,2024-06-26,exact,Kearsarge Lakes,36.764579,-118.388622,high,1.0,1.0,1.0,surprising 1,Kearsarge Lakes,Kearsarge Lakes,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-26,2024-06-26,2024-06-26,exact,trailhead (Wright's Lake),,,unresolved,4.0,4.0,4.0,4,trailhead,Fairmead,Populated Place,58.82352941176471
+high_sierra_topix,,102,ccbread,102,2024-06-26,2024-06-26,2024-06-26,exact,camp (halfway to Twin Lakes on granite slab),,,unresolved,4.0,4.0,4.0,4,camp,Balch Camp,Populated Place,57.14285714285714
+high_sierra_topix,,102,ccbread,102,2024-06-27,2024-06-27,2024-06-27,exact,Twin Lakes,36.9216108,-118.8998303,high,2.0,2.0,2.0,2,Twin Lakes,Twin Lakes,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-27,2024-06-27,2024-06-27,exact,Island Lake,37.1510843,-119.0620213,high,0.0,0.0,0.0,"0, breeze helpful",Island Lake,Island Lake,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-28,2024-06-28,2024-06-28,exact,Twin Lakes,36.9216108,-118.8998303,high,1.5,1.5,1.5,1.5,Twin Lakes,Twin Lakes,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-28,2024-06-28,2024-06-28,exact,Island Lake,37.1510843,-119.0620213,high,0.0,0.0,0.0,0,Island Lake,Island Lake,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-29,2024-06-29,2024-06-29,exact,Twin Lakes,36.9216108,-118.8998303,high,1.5,1.5,1.5,1.5,Twin Lakes,Twin Lakes,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-29,2024-06-29,2024-06-29,exact,Island Lake and Little Pyramid,37.1510843,-119.0620213,high,0.0,0.0,0.0,0,Island Lake,Island Lake,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-30,2024-06-30,2024-06-30,exact,Twin Lakes,36.9216108,-118.8998303,high,1.5,1.5,1.5,1.5,Twin Lakes,Twin Lakes,Lake,100.0
+high_sierra_topix,,102,ccbread,102,2024-06-30,2024-06-30,2024-06-30,exact,trail,,,unresolved,0.0,0.0,0.0,0 on trail,trail,Trail Crest,Gap,62.5
+high_sierra_topix,,102,ccbread,102,2024-06-30,2024-06-30,2024-06-30,exact,trailhead,,,unresolved,3.0,3.0,3.0,3 at trailhead,trailhead,Fairmead,Populated Place,58.82352941176471
+high_sierra_topix,,103,SSSdave,103,,2024-06-30,2024-07-02,range,"near Gilmore Lake, wind-sheltered green forest",38.8957964,-120.1157162,high,3.5,3.0,4.0,"3 or 4, late day 5",Gilmore Lake,Gilmore Lake,Lake,100.0
+high_sierra_topix,,103,SSSdave,103,,2024-06-30,2024-07-02,range,"sunny open areas, midday",,,unresolved,2.0,2.0,2.0,2 midday,midday,Lindsay,Populated Place,61.53846153846154
+high_sierra_topix,,103,SSSdave,103,,2024-06-30,2024-07-02,range,open sunny chinquapin manzanita area (first mile+),,,unresolved,0.0,0.0,0.0,"None 1(sic), first mile plus",open sunny chinquapin manzanita area,Chinquapin Lakes,Lake,50.0
+high_sierra_topix,,104,Flamingo,104,,2024-06-27,2024-06-30,range,Crown Valley Trailhead,,,unresolved,1.0,1.0,1.0,1,Crown Valley Trailhead,Crown Valley,Basin,70.58823529411764
+high_sierra_topix,,104,Flamingo,104,,2024-06-27,2024-06-30,range,Geraldine Lakes (below Spanish Mtn),36.9090042,-118.8816039,high,5.0,5.0,5.0,5! would score a 6 if possible,Geraldine Lakes,Geraldine Lakes,Lake,100.0
+high_sierra_topix,,104,Flamingo,104,,2024-06-27,2024-06-30,range,Crown Basin (day),37.0302177,-118.7717729,high,3.0,3.0,3.0,3 during the day,Crown Basin,Crown Basin,Basin,100.0
+high_sierra_topix,,104,Flamingo,104,,2024-06-27,2024-06-30,range,Crown Basin (dusk),37.0302177,-118.7717729,high,5.0,5.0,5.0,5 at dusk,Crown Basin,Crown Basin,Basin,100.0
+high_sierra_topix,,105,sidsquid,105,,2024-06-29,2024-07-04,range,Lamarck Lakes,37.4117572,-118.7093173,medium,3.0,3.0,3.0,3,Lamarck Lakes,Tamarack Lakes,Lake,88.88888888888889
+high_sierra_topix,,105,sidsquid,105,,2024-06-29,2024-07-04,range,Darwin Bench,,,unresolved,2.0,2.0,2.0,2,Darwin Bench,Bench Canyon,Valley,66.66666666666667
+high_sierra_topix,,105,sidsquid,105,,2024-06-29,2024-07-04,range,Evolution Basin,37.1354922,-118.6964983,high,3.0,3.0,3.0,3,Evolution Basin,Evolution Basin,Basin,100.0
+high_sierra_topix,,105,sidsquid,105,,2024-06-29,2024-07-04,range,Dusy Basin,37.0974345,-118.5589949,high,5.0,5.0,5.0,5,Dusy Basin,Dusy Basin,Basin,100.0
+high_sierra_topix,,106,DevFun,106,2024-07-04,2024-07-04,2024-07-04,inferred,Devils Postpile,,,unresolved,0.5,0.0,1.0,0-1,Devils Postpile,Devils Nose,Summit,76.92307692307692
+high_sierra_topix,,106,DevFun,106,2024-07-04,2024-07-04,2024-07-04,inferred,Becks Lake,37.6374882,-119.1568635,medium,5.0,5.0,5.0,"couldn't stand them, turned around",Becks Lake,Beck Lakes,Lake,90.0
+high_sierra_topix,,107,dave_p,107,,2024-07-02,2024-07-04,range,Sheep Camp up to Mosquito Pass and down to Emigrant Lake,38.8774077,-120.1607433,high,3.5,3.0,4.0,varies between 3 and 4,Mosquito Pass,Mosquito Pass,Gap,100.0
+high_sierra_topix,,107,dave_p,107,,2024-07-02,2024-07-04,range,near water sources (same route),,,unresolved,4.5,4.0,5.0,4-5 near water sources,water sources,Quarter Domes,Summit,61.53846153846154
+high_sierra_topix,,108,riemannzetagambit,108,,2024-06-28,2024-06-30,range,"Campgrounds (Sage Flats, trailhead)",,,unresolved,0.5,0.0,1.0,0-1,Campgrounds,Camp Earnest,Populated Place,60.86956521739131
+high_sierra_topix,,108,riemannzetagambit,108,,2024-06-28,2024-06-30,range,Second Lake,37.1237492,-118.4875826,high,2.5,2.0,3.0,2-3,Second Lake,Second Lake,Lake,100.0
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Meeks Bay TH,39.034352,-120.1240761,medium,1.5,1.0,2.0,1-2,Meeks Bay TH,Meeks Bay,Populated Place,85.71428571428572
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Crags Lake Trail (general),,,unresolved,1.5,1.0,2.0,1-2,Crags Lake Trail,Trail Lakes,Lake,74.07407407407408
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Crags Lake Trail (shady wet areas),,,unresolved,2.5,2.0,3.0,2-3,Crags Lake Trail,Trail Lakes,Lake,74.07407407407408
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Crags Lake Trail (dry sunny stretches),,,unresolved,0.5,0.0,1.0,0-1,Crags Lake Trail,Trail Lakes,Lake,74.07407407407408
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Rubicon Lake,38.9665833,-120.1341111,high,1.5,1.0,2.0,1-2,Rubicon Lake,Rubicon Lake,Lake,100.0
+high_sierra_topix,,109,Nozmo King,109,,2024-07-04,2024-07-06,range,Rubicon Lake (dawn/dusk),38.9665833,-120.1341111,high,2.5,2.0,3.0,2-3 at dawn & dusk,Rubicon Lake,Rubicon Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Chain Lakes,36.9819552,-118.8881801,high,4.0,4.0,4.0,4,Chain Lakes,Chain Lakes,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Breeze Lake,37.5760633,-119.3919544,high,3.0,3.0,3.0,3,Breeze Lake,Breeze Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Rutherford Lake,37.5980941,-119.3717344,high,2.0,2.0,2.0,2,Rutherford Lake,Rutherford Lake,Reservoir,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Anne Lake,37.600001,-119.3662209,high,3.0,3.0,3.0,3,Anne Lake,Anne Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Slab Lakes,37.6170212,-119.3584757,high,3.0,3.0,3.0,3,Slab Lakes,Slab Lakes,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Walton Lake,37.6229577,-119.3645312,high,2.0,2.0,2.0,2,Walton Lake,Walton Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Edna Lake,37.6434753,-119.3820963,high,1.0,1.0,1.0,1,Edna Lake,Edna Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Adair Lake,37.6829726,-119.4073284,high,5.0,5.0,5.0,5,Adair Lake,Adair Lake,Lake,100.0
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,upmost lake of Red creek,,,unresolved,1.0,1.0,1.0,1,upmost lake of Red creek,Lost Lake Creek,Stream,61.53846153846154
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,Lower Ottoway,37.6432297,-119.4188505,medium,3.5,3.0,4.0,3-4,Lower Ottoway,Lower Ottoway Lake,Lake,83.87096774193549
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,sw lake of Merced Peak,,,unresolved,1.0,1.0,1.0,1,sw lake of Merced Peak,Merced Peak,Summit,66.66666666666667
+high_sierra_topix,,110,oddtiger,110,,2024-07-04,2024-07-06,range,meadows below 10000ft (general),,,unresolved,3.5,3.0,4.0,pretty much 3-4,meadows below 10000ft,Agnew Meadows,Lake,52.94117647058824
+high_sierra_topix,,111,mpeters,111,,2024-07-05,2024-07-06,range,Gianelli TH to Granite Lake,36.863113,-118.6205568,high,1.0,1.0,1.0,"1, spray only",Granite Lake,Granite Lake,Lake,100.0
+high_sierra_topix,,111,mpeters,111,,2024-07-05,2024-07-06,range,Granite Lake (late evening/morning),36.863113,-118.6205568,high,2.0,2.0,2.0,2,Granite Lake,Granite Lake,Lake,100.0
+high_sierra_topix,,111,mpeters,111,,2024-07-05,2024-07-06,range,Granite Lake (during day),36.863113,-118.6205568,high,0.0,0.0,0.0,0 during the day,Granite Lake,Granite Lake,Lake,100.0
+high_sierra_topix,,112,Flamingo,112,,2024-07-04,2024-07-06,range,"Upper Virginia Canyon (above 10k', evening)",37.9648802,-119.4458216,medium,1.0,1.0,1.0,1,Upper Virginia Canyon,Virginia Canyon,Valley,83.33333333333334
+high_sierra_topix,,112,Flamingo,112,,2024-07-04,2024-07-06,range,Upper Virginia Canyon (day),37.9648802,-119.4458216,medium,0.0,0.0,0.0,0 during day,Upper Virginia Canyon,Virginia Canyon,Valley,83.33333333333334
+high_sierra_topix,,112,Flamingo,112,,2024-07-04,2024-07-06,range,Glines Canyon (east side of Virginia Pass),38.0819507,-119.3105659,high,1.5,1.0,2.0,1-2,Glines Canyon,Glines Canyon,Valley,100.0
+high_sierra_topix,,112,Flamingo,112,,2024-07-04,2024-07-06,range,Green Lake,37.1693912,-118.5319102,high,1.5,1.0,2.0,1-2,Green Lake,Green Lake,Lake,100.0
+high_sierra_topix,,113,Frogblast,113,,2024-07-01,2024-07-02,range,Grouse Ridge Non-Motorized Area,,,unresolved,1.0,1.0,1.0,few seen around dusk,Grouse Ridge Non-Motorized Area,Grouse Mountain,Summit,47.82608695652174
+high_sierra_topix,,114,Harlen,114,,2024-06-29,2024-07-07,range,eastern sides of Sawmill and Taboose Passes,36.9847864,-118.4139678,high,0.0,0.0,0.0,virtually no mossies,Taboose Passes,Taboose Pass,Gap,92.3076923076923
+high_sierra_topix,,114,Harlen,114,,2024-06-29,2024-07-07,range,high basins west of those passes,,,unresolved,2.0,2.0,2.0,Level 2,high basins west of those passes,Pioneer Basin Lakes,Lake,47.05882352941176
+high_sierra_topix,,114,Harlen,114,,2024-06-29,2024-07-07,range,"basin under Window Peak; basin east of Arrow Peak, Bench Lake terrace; Lake/Dumbell/Amphitheater Basins; high basin (11,500') under Split Mtn; lake basin under Striped Mtn",,,unresolved,4.0,3.0,5.0,could've reached level 5 at times,Dumbell,Double Hill,Summit,66.66666666666667
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-05,2024-07-05,2024-07-05,exact,Relief Reservoir,38.2704189,-119.738145,high,0.5,0.0,1.0,"breezy, hot, a few at dusk only",Relief Reservoir,Relief Reservoir,Reservoir,100.0
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-06,2024-07-06,2024-07-06,exact,Middle Emigrant Lake via Brown Bear Pass (Emigrant Meadow Lake),38.1903378,-119.6546492,high,3.5,3.0,4.0,very wet meadow,Middle Emigrant Lake,Middle Emigrant Lake,Reservoir,100.0
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-06,2024-07-06,2024-07-06,exact,Middle Emigrant Lake,38.1903378,-119.6546492,high,1.0,1.0,1.0,a few at dusk,Middle Emigrant Lake,Middle Emigrant Lake,Reservoir,100.0
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-07,2024-07-07,2024-07-07,exact,Summit Creek at Lewis Lake confluence area,37.0588363,-119.2559559,high,0.0,0.0,0.0,"none all day, a few at dusk",Summit Creek,Summit Creek,Stream,100.0
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-08,2024-07-08,2024-07-08,exact,Upper Lewis Lake / Relief Reservoir day hike,37.2959567,-119.1599446,medium,0.0,0.0,0.0,none,Upper Lewis Lake,Upper Twin Lake,Lake,83.87096774193549
+high_sierra_topix,,116,Wandering Daisy,116,2024-07-09,2024-07-09,2024-07-09,exact,walk out,,,unresolved,0.0,0.0,0.0,none,walk out,Fourth Lake,Lake,63.1578947368421
+high_sierra_topix,,117,janeway,117,2024-07-03,2024-07-03,2024-07-03,inferred,Pine Creek TH to French Canyon,37.2656506,-118.7791096,high,0.5,0.0,1.0,"0-1, not biting",French Canyon,French Canyon,Valley,100.0
+high_sierra_topix,,117,janeway,117,2024-07-03,2024-07-03,2024-07-03,inferred,French Canyon,37.2656506,-118.7791096,high,1.5,1.0,2.0,"1-2, not biting during day",French Canyon,French Canyon,Valley,100.0
+high_sierra_topix,,117,janeway,117,2024-07-03,2024-07-03,2024-07-03,inferred,Merriam Lake (evening),37.2948495,-118.7919203,high,3.5,3.0,4.0,started biting around 5pm,Merriam Lake,Merriam Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-04,2024-07-04,2024-07-04,inferred,Merriam Lake (morning),37.2948495,-118.7919203,high,3.5,3.0,4.0,woke and started biting ~6am,Merriam Lake,Merriam Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-04,2024-07-04,2024-07-04,inferred,climb up to La Salle Lake,37.31375,-118.78615,high,2.5,2.0,3.0,would bite when stopped,La Salle Lake,La Salle Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-04,2024-07-04,2024-07-04,inferred,Bear Lakes Basin (day),39.410735,-120.5579881,medium,0.0,0.0,0.0,0,Bear Lakes Basin,Five Lakes Basin,Basin,81.25
+high_sierra_topix,,117,janeway,117,2024-07-04,2024-07-04,2024-07-04,inferred,Vee Lake (evening),37.3205585,-118.8071964,high,1.0,1.0,1.0,1,Vee Lake,Vee Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-05,2024-07-05,2024-07-05,inferred,Vee Lake (morning),37.3205585,-118.8071964,high,1.0,1.0,1.0,1,Vee Lake,Vee Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-05,2024-07-05,2024-07-05,inferred,"Brown Bear Lake, Lake Italy, Upper Mills Creek Lake (day)",37.3454626,-118.8108039,high,0.0,0.0,0.0,0,Brown Bear Lake,Brown Bear Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-05,2024-07-05,2024-07-05,inferred,Lower Mills Creek Lake (evening),37.3988982,-118.8108734,high,2.0,2.0,2.0,2,Lower Mills Creek Lake,Lower Mills Creek Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-06,2024-07-06,2024-07-06,inferred,Lower Mills Creek Lake (morning),37.3988982,-118.8108734,high,2.0,2.0,2.0,2,Lower Mills Creek Lake,Lower Mills Creek Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-06,2024-07-06,2024-07-06,inferred,Second Recess and Mono Creek,37.4229064,-118.8581997,high,0.0,0.0,0.0,0,Second Recess,Second Recess,Valley,100.0
+high_sierra_topix,,117,janeway,117,2024-07-06,2024-07-06,2024-07-06,inferred,Fourth Recess Lake,37.4375445,-118.7856407,high,1.0,1.0,1.0,"lots of immature swarms, not biting yet",Fourth Recess Lake,Fourth Recess Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-07,2024-07-07,2024-07-07,inferred,Fourth Recess Lake (morning),37.4375445,-118.7856407,high,1.0,1.0,1.0,1,Fourth Recess Lake,Fourth Recess Lake,Lake,100.0
+high_sierra_topix,,117,janeway,117,2024-07-07,2024-07-07,2024-07-07,inferred,Mono Pass and out LLV,37.4249342,-118.7726228,high,0.0,0.0,0.0,0,Mono Pass,Mono Pass,Gap,100.0
+high_sierra_topix,,118,wsp_scott,118,,2024-07-10,2024-07-12,range,Emerald and Pear Lakes,36.6012246,-118.6674844,high,1.5,1.0,2.0,most obvious in evening,Pear Lakes,Pear Lake,Lake,94.73684210526316
+high_sierra_topix,,119,mt.eo,119,2024-07-11,2024-07-11,2024-07-11,exact,Long Lake,39.0381774,-120.266555,high,2.0,2.0,2.0,2,Long Lake,Long Lake,Lake,100.0
+high_sierra_topix,,119,mt.eo,119,2024-07-11,2024-07-11,2024-07-11,exact,Bishop Lake,37.1213622,-118.5505024,high,2.5,2.0,3.0,2-3,Bishop Lake,Bishop Lake,Lake,100.0
+high_sierra_topix,,119,mt.eo,119,2024-07-12,2024-07-12,2024-07-12,exact,Dusy Basin,37.0974345,-118.5589949,high,2.5,2.0,3.0,2-3,Dusy Basin,Dusy Basin,Basin,100.0
+high_sierra_topix,,119,mt.eo,119,2024-07-13,2024-07-13,2024-07-13,exact,Dusy Basin,37.0974345,-118.5589949,high,2.0,2.0,2.0,2,Dusy Basin,Dusy Basin,Basin,100.0
+high_sierra_topix,,119,mt.eo,119,2024-07-13,2024-07-13,2024-07-13,exact,Bishop Lake,37.1213622,-118.5505024,high,2.0,2.0,2.0,2,Bishop Lake,Bishop Lake,Lake,100.0
+high_sierra_topix,,119,mt.eo,119,2024-07-13,2024-07-13,2024-07-13,exact,Long Lake,39.0381774,-120.266555,high,2.0,2.0,2.0,2,Long Lake,Long Lake,Lake,100.0
+high_sierra_topix,,120,mlindq530,120,2024-07-09,2024-07-09,2024-07-09,exact,Sunrise Lake (Middle),37.8088607,-119.4495513,high,2.0,1.0,3.0,"1 most of time, 3 evening/morning",Sunrise Lake,Sunrise Lakes,Lake,96.0
+high_sierra_topix,,120,mlindq530,120,2024-07-10,2024-07-10,2024-07-10,exact,Sunrise Creek (near Half Dome trail),37.7321482,-119.5134933,high,1.0,1.0,1.0,1,Sunrise Creek,Sunrise Creek,Stream,100.0
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,trailhead to Cottonwood pass,35.7802417,-120.2070888,high,0.0,0.0,0.0,0,Cottonwood pass,Cottonwood Pass,Gap,93.33333333333333
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,Chicken spring lake,36.4573567,-118.2272578,medium,2.0,2.0,2.0,2,Chicken spring lake,Chicken Spring Lake,Lake,89.47368421052632
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,just after chicken spring to lower soldier lake,,,unresolved,0.0,0.0,0.0,0,lower soldier lake,Lower Sardine Lake,Reservoir,66.66666666666667
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,lower soldier to miter basin (via inlet shortcut),,,unresolved,0.0,0.0,0.0,0,miter basin,Center Basin,Basin,69.56521739130434
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,miter basin,,,unresolved,0.0,0.0,0.0,0,miter basin,Center Basin,Basin,69.56521739130434
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,sky blue lake,,,unresolved,0.0,0.0,0.0,0,sky blue lake,Sky Blue Lake,Lake,76.92307692307692
+high_sierra_topix,,121,maxr22,121,,2024-07-12,2024-07-14,range,iridescent lake,36.5346096,-118.2600589,medium,1.0,1.0,1.0,many gnat like bugs but no biting,iridescent lake,Iridescent Lake,Lake,86.66666666666667
+high_sierra_topix,,122,BESON,122,,2024-07-12,2024-07-13,range,meadows before/after the burned area (Cliff Lake TH to Island Lake),,,unresolved,4.0,4.0,4.0,even moving briskly wasn't sufficient,meadows before,Corlew Meadows,Lake,71.42857142857143
+high_sierra_topix,,122,BESON,122,,2024-07-12,2024-07-13,range,lakes during day (sun/breeze),,,unresolved,2.0,2.0,2.0,2,lakes during day,Grayling Lake,Lake,62.06896551724138
+high_sierra_topix,,122,BESON,122,,2024-07-12,2024-07-13,range,lakes at dawn/dusk,,,unresolved,3.5,3.0,4.0,3-4,lakes,Alger Lakes,Lake,62.5
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,Rush Creek to Spooky Meadow,36.9705035,-119.2345655,high,0.0,0.0,0.0,0,Rush Creek,Rush Creek,Stream,100.0
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,"Spooky Meadow, over Agnew Pass, towards Shadow Lake",37.7338208,-119.1434774,high,2.0,2.0,2.0,2,Agnew Pass,Agnew Pass,Gap,100.0
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,Shadow Lake (~6pm),38.9882847,-120.1472991,high,4.5,4.0,5.0,borderline 5,Shadow Lake,Shadow Lake,Lake,100.0
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,past Vivian lake towards Minaret Falls approach,,,unresolved,3.0,3.0,3.0,3,Minaret Falls approach,Minaret Falls,Falls,74.28571428571429
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,Minaret Falls through Minaret Lake,37.640769,-119.0948579,high,0.5,0.5,0.5,1/2,Minaret Falls,Minaret Falls,Falls,100.0
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,"Cecile, Iceberg lakes",36.7007833,-119.7176399,high,0.0,0.0,0.0,0,Cecile,Cecile,Populated Place,100.0
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,around Ediza up towards Ritter,,,unresolved,2.5,2.0,3.0,2/3,Ediza up,Ediza Lake,Lake,66.66666666666667
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,"Whitebark Pass, Garnet Pass",36.7985475,-118.4823202,medium,0.5,0.0,1.0,0/1,Garnet Pass,Gardiner Pass,Gap,83.33333333333334
+high_sierra_topix,,123,mas_picoso,123,,2024-07-12,2024-07-14,range,Thousand Island,37.7208769,-119.1833282,medium,2.0,2.0,2.0,2,Thousand Island,Thousand Island Lake,Lake,85.71428571428572
+high_sierra_topix,,124,Bishop_Bob,124,,2024-07-09,2024-07-15,range,North Lake to Mammoth via SHR,37.2314945,-118.6142845,high,2.0,2.0,2.0,2 during entire trip,North Lake,North Lake,Reservoir,100.0
+high_sierra_topix,,125,Love the Sierra,125,2024-07-11,2024-07-11,2024-07-11,exact,Cold Water Creek Trail,37.6007702,-118.999298,medium,4.0,4.0,4.0,HOT,Cold Water Creek Trail,Cold Water Creek,Stream,84.21052631578947
+high_sierra_topix,,125,Love the Sierra,125,2024-07-12,2024-07-12,2024-07-12,exact,Pika Lake,37.551119,-118.9525241,high,4.0,4.0,4.0,HOT,Pika Lake,Pika Lake,Lake,100.0
+high_sierra_topix,,125,Love the Sierra,125,2024-07-13,2024-07-13,2024-07-13,exact,Pika - Virginia Lake,,,unresolved,4.0,4.0,4.0,"storm/drizzle, bad in rain",Pika - Virginia Lake,Virginia Lake,Lake,78.78787878787878
+high_sierra_topix,,125,Love the Sierra,125,2024-07-14,2024-07-14,2024-07-14,exact,Purple Lake,37.530262,-118.9468637,high,5.0,5.0,5.0,partial sun/drizzle,Purple Lake,Purple Lake,Lake,100.0
+high_sierra_topix,,125,Love the Sierra,125,2024-07-14,2024-07-14,2024-07-14,exact,Purple Lake SE side higher camp,,,unresolved,4.0,4.0,4.0,4,Purple Lake SE side higher camp,Sapphire Lake,Lake,54.54545454545454
+high_sierra_topix,,125,Love the Sierra,125,2024-07-15,2024-07-15,2024-07-15,exact,Purple Lake to Cascade Valley,37.530262,-118.9468637,high,4.0,4.0,4.0,mossies in the rain,Purple Lake,Purple Lake,Lake,100.0
+high_sierra_topix,,125,Love the Sierra,125,2024-07-16,2024-07-16,2024-07-16,exact,Purple to Crater Creek forest camp (JMT/PCT ridge),,,unresolved,0.0,0.0,0.0,0,Purple,Purple Lake,Lake,70.58823529411764
+high_sierra_topix,,125,Love the Sierra,125,2024-07-16,2024-07-16,2024-07-16,exact,outlet of Duck Lake,,,unresolved,3.0,3.0,3.0,+ biting black flies,outlet of Duck Lake,Duck Lake,Lake,64.28571428571428
+high_sierra_topix,,125,Love the Sierra,125,2024-07-16,2024-07-16,2024-07-16,exact,forest trail/camp 100' above Crater Creek,,,unresolved,3.0,3.0,3.0,3,forest trail,Trail Crest,Gap,78.26086956521739
+high_sierra_topix,,125,Love the Sierra,125,2024-07-16,2024-07-16,2024-07-16,exact,Deer creek junction with JMT/PCT,,,unresolved,5.0,5.0,5.0,5,Deer creek junction with JMT,Junction Creek,Stream,57.14285714285714
+high_sierra_topix,,125,Love the Sierra,125,2024-07-17,2024-07-17,2024-07-17,exact,Crater Creek - Mc Cloud Lake via Mammoth Pass tr,37.6093811,-119.0340213,medium,3.0,3.0,3.0,3,Mammoth Pass tr,Mammoth Pass,Gap,88.88888888888889
+high_sierra_topix,,126,KathyW,126,,2024-07-17,2024-07-18,range,Red Lake Trail / Red Lake,37.0200497,-118.4037238,high,0.5,0.0,1.0,"0 to 1, few near dark",Red Lake,Red Lake,Lake,100.0
+high_sierra_topix,,127,OutdoorRandy,127,,2024-07-19,2024-07-21,range,Kearsarge Lakes (dusk),36.764579,-118.388622,high,1.0,1.0,1.0,barely,Kearsarge Lakes,Kearsarge Lakes,Lake,100.0
+high_sierra_topix,,127,OutdoorRandy,127,,2024-07-19,2024-07-21,range,Kearsarge Lakes / Glen Pass (rest of time),36.764579,-118.388622,high,0.0,0.0,0.0,0 the rest of the time,Kearsarge Lakes,Kearsarge Lakes,Lake,100.0
+high_sierra_topix,,128,moonburn,128,,2024-07-19,2024-07-21,range,Glen Aulin backpackers' camp,,,unresolved,1.0,1.0,1.0,1,Glen Aulin backpackers' camp,Glen Aulin,Basin,52.63157894736843
+high_sierra_topix,,129,klsmith1953,129,2024-07-21,2024-07-21,2024-07-21,exact,Horseshoe Lake,38.9540879,-120.221477,high,0.0,0.0,0.0,0,Horseshoe Lake,Horseshoe Lake,Lake,100.0
+high_sierra_topix,,129,klsmith1953,129,2024-07-21,2024-07-21,2024-07-21,exact,McLeod Lake,37.6080848,-119.0305908,high,0.0,0.0,0.0,0,McLeod Lake,McLeod Lake,Lake,100.0
+high_sierra_topix,,129,klsmith1953,129,2024-07-22,2024-07-22,2024-07-22,exact,Crystal Lake,37.5938569,-119.0184361,high,0.0,0.0,0.0,0,Crystal Lake,Crystal Lake,Lake,100.0
+high_sierra_topix,,129,klsmith1953,129,2024-07-23,2024-07-23,2024-07-23,exact,Little Lakes Valley (afternoon),37.4493549,-118.7373204,high,1.0,1.0,1.0,1,Little Lakes Valley,Little Lakes Valley,Valley,100.0
+high_sierra_topix,,130,riemannzetagambit,130,,2024-07-13,2024-07-14,range,Blue Canyon and Lake,36.5333669,-119.1009735,high,0.0,0.0,0.0,"virtually no mosquitos, except a few in a marsh",Blue Canyon,Blue Canyon,Valley,100.0
+high_sierra_topix,,132,papercup,132,2024-07-21,2024-07-21,2024-07-21,exact,Bench Lake,36.761992,-118.362,high,2.5,2.0,3.0,2-3,Bench Lake,Bench Lake,Lake,100.0
+high_sierra_topix,,132,papercup,132,2024-07-22,2024-07-22,2024-07-22,exact,South Fork Kings,36.8382777,-118.8751062,medium,4.0,4.0,4.0,4,South Fork Kings,South Fork Kings River,Stream,84.21052631578947
+high_sierra_topix,,132,papercup,132,2024-07-22,2024-07-22,2024-07-22,exact,Lakes Basin,36.9824359,-118.5131564,high,1.5,1.0,2.0,1-2,Lakes Basin,Lake Basin,Basin,95.23809523809523
+high_sierra_topix,,132,papercup,132,2024-07-23,2024-07-23,2024-07-23,exact,Lake 10565,,,unresolved,1.5,1.0,2.0,1-2,Lake 10565,Fox Lake,Lake,55.55555555555556
+high_sierra_topix,,132,papercup,132,2024-07-24,2024-07-24,2024-07-24,exact,Amphitheatre Lake,37.0428882,-118.5102053,high,1.5,1.0,2.0,1-2,Amphitheatre Lake,Amphitheater Lake,Lake,94.11764705882352
+high_sierra_topix,,132,papercup,132,,2024-07-21,2024-07-24,range,climb up Taboose Pass,,,unresolved,0.0,0.0,0.0,saw none at all,climb up Taboose Pass,Taboose Pass,Gap,72.72727272727273
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Horseshoe Meadows to Long Lake,39.0381774,-120.266555,high,2.0,2.0,2.0,when near wet areas,Long Lake,Long Lake,Lake,100.0
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Long Lake,39.0381774,-120.266555,high,0.0,0.0,0.0,rained most of the afternoon,Long Lake,Long Lake,Lake,100.0
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Upper Soldier Lake,37.8552328,-119.205166,medium,1.0,1.0,1.0,1,Upper Soldier Lake,Upper Sardine Lake,Lake,83.33333333333334
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Miter Basin (through-hike),,,unresolved,0.0,0.0,0.0,0,Miter Basin,Center Basin,Basin,78.26086956521739
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Upper Crabtree Lake,37.1066588,-118.7952965,medium,0.0,0.0,0.0,slight breezes might have kept them away,Upper Crabtree Lake,Crabtree Lake,Lake,81.25
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Above Guitar Lake and Hitchcock Lakes,36.5592946,-118.3090097,high,0.0,0.0,0.0,0,Hitchcock Lakes,Hitchcock Lakes,Lake,100.0
+high_sierra_topix,,133,mlindq530,133,,2024-07-22,2024-07-28,range,Consultation Lake,36.5615328,-118.2723371,high,0.0,0.0,0.0,wind 10-20mph all evening,Consultation Lake,Consultation Lake,Lake,100.0
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,Crabtree to Piute Lake,36.8435582,-119.089836,high,2.0,2.0,2.0,2,Crabtree,Crabtree,Populated Place,100.0
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,Piute Lake to Buck Lake,38.1620521,-119.811053,high,2.0,2.0,2.0,2,Piute Lake,Piute Lake,Lake,100.0
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,Buck to Latora,,,unresolved,3.0,3.0,3.0,3,Latora,Laton,Populated Place,72.72727272727273
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,Buck to Emmigrant Lake,38.1743091,-119.6976082,high,0.0,0.0,0.0,"nice, stiff breeze",Emmigrant Lake,Emigrant Lake,Lake,96.2962962962963
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,forest on switchbacks to Emmigrant,,,unresolved,2.0,2.0,2.0,2,Emmigrant,Emigrant Hill,Summit,72.72727272727273
+high_sierra_topix,,134,Love the Sierra,134,,2024-07-24,2024-07-29,range,Lilly Pad Lake,38.6052205,-119.8870587,high,2.0,2.0,2.0,2-,Lilly Pad Lake,Lily Pad Lake,Lake,96.2962962962963
+high_sierra_topix,,135,Harlen,135,,2024-07-23,2024-07-29,range,"Bear Creek (way in, marshy areas)",37.9424253,-120.4888086,high,2.0,2.0,2.0,2,Bear Creek,Bear Creek,Stream,100.0
+high_sierra_topix,,135,Harlen,135,,2024-07-23,2024-07-29,range,Bear Basin,38.4704674,-120.0915774,medium,0.5,0.0,1.0,0-1 throughout stay,Bear Basin,Bear Trap Basin,Basin,80.0
+high_sierra_topix,,135,Harlen,135,,2024-07-23,2024-07-29,range,Lake Italy area,37.3580444,-118.8062896,medium,0.0,0.0,0.0,0 throughout,Lake Italy area,Lake Italy,Lake,80.0
+high_sierra_topix,,135,Harlen,135,,2024-07-23,2024-07-29,range,Bear Creek (way out),37.9424253,-120.4888086,high,1.0,1.0,1.0,just level 1,Bear Creek,Bear Creek,Stream,100.0
+high_sierra_topix,,136,Willythedog,136,,2024-07-27,2024-07-28,range,Dana meadows / mono pass (Yosemite NP),37.8940149,-119.2538121,medium,0.0,0.0,0.0,0,Dana meadows,Dana Meadows,Lake,91.66666666666666
+high_sierra_topix,,136,Willythedog,136,,2024-07-27,2024-07-28,range,Lembert dome / Young lake area,,,unresolved,0.0,0.0,0.0,0,Young lake area,Boundary Lake,Lake,64.28571428571428
+high_sierra_topix,,137,SSSdave,137,,2024-07-26,2024-07-30,range,Green Creek in Hoover Wilderness (forest/near water),,,unresolved,2.5,2.0,3.0,nonexistent if breezy/midday sunny,Green Creek in Hoover Wilderness,Wilderness Creek,Stream,66.66666666666667
+high_sierra_topix,,138,aaron_in_sf,138,,2024-07-28,2024-08-04,range,Lyell Canyon to Edison Lake via Silver Pass/Ferry (general),37.8682894,-119.3068826,high,0.0,0.0,0.0,~0 almost everywhere,Lyell Canyon,Lyell Canyon,Valley,100.0
+high_sierra_topix,,138,aaron_in_sf,138,,2024-07-28,2024-08-04,range,lower altitudes of Tully Hole,,,unresolved,1.5,1.0,2.0,"some (1), might have been 2",lower altitudes of Tully Hole,Tully Hole,Basin,51.28205128205128
+high_sierra_topix,,138,aaron_in_sf,138,,2024-07-28,2024-08-04,range,south side of Silver Pass below 9K',,,unresolved,0.5,0.0,1.0,a few,south side of Silver Pass below 9K,Silver Pass,Gap,48.88888888888889
+high_sierra_topix,,139,jillsocean,139,,2024-08-02,2024-08-06,range,Cliff Lake (Dinkey Lakes),38.975925,-120.148652,high,2.0,2.0,2.0,2 this weekend,Cliff Lake,Cliff Lake,Lake,100.0
+high_sierra_topix,,140,wildhiker,140,,2024-08-01,2024-08-06,range,PCT Tuolumne Meadows to Spiller Creek (cross-country up and return),37.9982552,-119.3857168,high,0.0,0.0,0.0,"0 mosquitoes on entire route, except one landed",Spiller Creek,Spiller Creek,Stream,100.0
+high_sierra_topix,,141,Carne_DelMuerto,141,,2024-08-03,2024-08-08,range,"Rafferty Creek, Vogelsang, Lyell Fork Merced (most areas)",37.8690927,-119.3232099,high,0.0,0.0,0.0,0 in most areas,Rafferty Creek,Rafferty Creek,Stream,100.0
+high_sierra_topix,,141,Carne_DelMuerto,141,,2024-08-03,2024-08-08,range,Lyell Fork Meadows (after dusk),,,unresolved,1.0,1.0,1.0,1 after dusk,Lyell Fork Meadows,Forest Meadows,Populated Place,75.0
+high_sierra_topix,,142,Lastdirollo,142,,2024-08-06,2024-08-09,range,Crabtree to Buck Lakes and back,36.8435582,-119.089836,high,0.0,0.0,0.0,saw about 3 over 4 days,Crabtree,Crabtree,Populated Place,100.0
+high_sierra_topix,,143,faketuna,143,2024-08-05,2024-08-05,2024-08-05,exact,Mule Pass/Junction Pass junction just above crown lake,38.0965864,-119.4418308,high,0.5,0.0,1.0,1 until breeze came in then 0,Mule Pass,Mule Pass,Gap,100.0
+high_sierra_topix,,143,faketuna,143,2024-08-06,2024-08-06,2024-08-06,exact,Matterhorn Canyon at PCT camp,37.9694001,-119.4482195,high,1.0,1.0,1.0,1,Matterhorn Canyon,Matterhorn Canyon,Valley,100.0
+high_sierra_topix,,143,faketuna,143,2024-08-07,2024-08-07,2024-08-07,exact,Benson Lake,38.0153612,-119.529468,high,0.5,0.0,1.0,1 then breeze came 0,Benson Lake,Benson Lake,Lake,100.0
+high_sierra_topix,,143,faketuna,143,2024-08-08,2024-08-08,2024-08-08,exact,Peeler Lake,38.1204494,-119.4678912,high,1.0,1.0,1.0,1,Peeler Lake,Peeler Lake,Lake,100.0
+high_sierra_topix,,144,generalelectrix,144,,2024-08-07,2024-08-10,range,"Horsetail Falls, Aloha/Pyramid basin (lake level to 9500'), Half Moon Lake, Susie Lake",38.1393642,-119.3798835,high,0.0,0.0,0.0,hard 0 the entire time,Horsetail Falls,Horsetail Falls,Falls,100.0
+high_sierra_topix,,145,Odrob,145,2024-08-14,2024-08-14,2024-08-14,inferred,"Upper Chain Lake, Yosemite",38.0393524,-119.6721941,medium,0.0,0.0,0.0,0,Upper Chain Lake,Upper Branigan Lake,Lake,80.0
+high_sierra_topix,,146,Janed5,146,,2024-08-14,2024-08-15,range,trail (Meeks bay trail to Lake Genevieve),,,unresolved,0.5,0.0,1.0,"saw 3 mosquitoes, breezy",trail,Trail Crest,Gap,62.5
+high_sierra_topix,,146,Janed5,146,,2024-08-14,2024-08-15,range,Lake Genevieve,38.996969,-120.1611683,high,0.5,0.0,1.0,"saw 2 mosquitoes, one tried to bite",Lake Genevieve,Lake Genevieve,Lake,100.0
+high_sierra_topix,,147,Nozmo King,147,,2024-08-10,2024-08-16,range,Atwell Mills Campground,,,unresolved,1.0,1.0,1.0,1,Atwell Mills Campground,Mill Canyon,Valley,52.94117647058824
+high_sierra_topix,,147,Nozmo King,147,,2024-08-10,2024-08-16,range,Timber Gap thru Kaweah Gap & out over Sawtooth Pass,36.4682746,-118.5992602,high,0.5,0.0,1.0,0-1,Timber Gap,Timber Gap,Gap,100.0
+high_sierra_topix,,148,Snowtrout,148,2024-08-18,2024-08-18,2024-08-18,inferred,Crown/Rancheria TH to Upper Chain Lake (trail),38.0393524,-119.6721941,medium,0.5,0.0,1.0,a few bugs along the trail but no bug bites,Upper Chain Lake,Upper Branigan Lake,Lake,80.0
+high_sierra_topix,,148,Snowtrout,148,2024-08-18,2024-08-18,2024-08-18,inferred,Upper Chain Lake,38.0393524,-119.6721941,medium,0.0,0.0,0.0,Nada at the lake,Upper Chain Lake,Upper Branigan Lake,Lake,80.0
+high_sierra_topix,,149,mt.eo,149,,2024-08-22,2024-08-25,range,East of Kearsarge,,,unresolved,0.0,0.0,0.0,0,East of Kearsarge,Kearsarge,Populated Place,69.23076923076923
+high_sierra_topix,,149,mt.eo,149,,2024-08-22,2024-08-25,range,Charlotte Lake,36.7761088,-118.4267086,high,0.0,0.0,0.0,0,Charlotte Lake,Charlotte Lake,Lake,100.0
+high_sierra_topix,,149,mt.eo,149,,2024-08-22,2024-08-25,range,Upper & Middle Rae,,,unresolved,0.0,0.0,0.0,0,Upper & Middle Rae,Upper Blue Lake,Reservoir,66.66666666666667
+high_sierra_topix,,149,mt.eo,149,,2024-08-22,2024-08-25,range,Bullfrog Lake,36.7713954,-118.4039846,high,1.0,1.0,1.0,1,Bullfrog Lake,Bullfrog Lake,Lake,100.0
+high_sierra_topix,,149,mt.eo,149,,2024-08-22,2024-08-25,range,Kearsarge Lakes,36.764579,-118.388622,high,0.0,0.0,0.0,0,Kearsarge Lakes,Kearsarge Lakes,Lake,100.0
+high_sierra_topix,,150,Snowtrout,150,2024-09-02,2024-09-02,2024-09-02,inferred,Spanish TH to Spanish Lake trail,36.9305796,-118.899786,medium,0.0,0.0,0.0,far and few between,Spanish Lake trail,Spanish Lake,Lake,80.0
+high_sierra_topix,,151,Love the Sierra,151,2024-09-03,2024-09-03,2024-09-03,inferred,"Cottonwood Lakes, muir, Long, Cirque and South Fork Lakes",36.483089,-118.218084,high,0.0,0.0,0.0,0,South Fork Lakes,South Fork Lakes,Lake,100.0
+high_sierra_topix,,152,randydarden,152,,2024-08-31,2024-09-01,range,"Gianelli to Granite Lake, then Leopold Lake",36.863113,-118.6205568,high,0.0,0.0,0.0,"0, plenty of non-biting flies",Granite Lake,Granite Lake,Lake,100.0
