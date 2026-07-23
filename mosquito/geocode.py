@@ -25,7 +25,16 @@ from rapidfuzz import fuzz, process
 
 from . import config
 
-GNIS_PATH = "/Users/maxwelltitsworth/mosquitoseverity/cache/Text/DomesticNames_CA.txt"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+# Raw USGS GNIS California file (national gazetteer, ~50k CA rows) -- a
+# one-time manual download, not committed (it's 2MB+ zipped and mostly
+# irrelevant outside the Sierra). Only needed if regenerating
+# data/gnis_sierra.csv from scratch; the deployed pipeline (including the
+# GitHub Actions daily build) reads the small pre-filtered subset instead,
+# since that raw file wouldn't exist on a fresh checkout.
+RAW_GNIS_PATH = str(REPO_ROOT / "cache" / "Text" / "DomesticNames_CA.txt")
+FILTERED_GNIS_PATH = REPO_ROOT / "data" / "gnis_sierra.csv"
 
 RELEVANT_CLASSES = [
     "Stream", "Summit", "Lake", "Populated Place", "Valley",
@@ -41,14 +50,30 @@ PAREN_RE = re.compile(r"\([^)]*\)")
 
 
 def load_gazetteer():
-    df = pd.read_csv(GNIS_PATH, sep="|", encoding="utf-8-sig")
+    """Small, tracked, pre-filtered subset (data/gnis_sierra.csv) used by
+    the deployed pipeline. Use rebuild_filtered_gazetteer() to regenerate
+    it from the raw GNIS download if the Sierra extent or relevant
+    feature classes ever change.
+    """
+    return pd.read_csv(FILTERED_GNIS_PATH)
+
+
+def rebuild_filtered_gazetteer():
+    """One-time/manual: filter the full raw California GNIS download down
+    to the Sierra bbox + relevant classes and overwrite the tracked
+    data/gnis_sierra.csv. Requires RAW_GNIS_PATH to exist locally (a
+    manual download -- see README) -- not needed for normal pipeline runs.
+    """
+    df = pd.read_csv(RAW_GNIS_PATH, sep="|", encoding="utf-8-sig")
     b = config.SIERRA_BOUNDS
     df = df[
         (df["prim_lat_dec"] >= b["min_lat"]) & (df["prim_lat_dec"] <= b["max_lat"]) &
         (df["prim_long_dec"] >= b["min_lon"]) & (df["prim_long_dec"] <= b["max_lon"]) &
         (df["feature_class"].isin(RELEVANT_CLASSES))
     ]
-    return df.reset_index(drop=True)
+    df = df[["feature_name", "feature_class", "prim_lat_dec", "prim_long_dec"]].reset_index(drop=True)
+    df.to_csv(FILTERED_GNIS_PATH, index=False)
+    return df
 
 
 def _candidate_substrings(place_text: str):
@@ -116,7 +141,7 @@ def main():
     gaz_names = list(gaz_lookup.keys())
     print(f"Gazetteer: {len(gaz_names)} unique names loaded")
 
-    df = pd.read_csv("/Users/maxwelltitsworth/mosquitoseverity/hst_observations.csv")
+    df = pd.read_csv(REPO_ROOT / "hst_observations.csv")
     unique_places = df["place_text"].dropna().unique().tolist()
     print(f"Geocoding {len(unique_places)} unique place_text values...")
 
@@ -130,7 +155,7 @@ def main():
                 "longitude", "match_score", "location_confidence"]:
         df[col] = df["place_text"].map(lambda p: results.get(p, {}).get(col))
 
-    out_path = "/Users/maxwelltitsworth/mosquitoseverity/hst_observations_geocoded.csv"
+    out_path = str(REPO_ROOT / "hst_observations_geocoded.csv")
     df.to_csv(out_path, index=False)
     print(f"Wrote {out_path}")
     print(df["location_confidence"].value_counts())

@@ -28,8 +28,9 @@ import requests
 from mosquito import free_data
 from mosquito.scoring import score_row
 
-SERIES_CACHE_PATH = "/Users/maxwelltitsworth/mosquitoseverity/cache/validate_series_cache.json"
-HABITAT_CACHE_PATH = "/Users/maxwelltitsworth/mosquitoseverity/cache/validate_habitat_cache.csv"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SERIES_CACHE_PATH = str(REPO_ROOT / "cache" / "validate_series_cache.json")
+HABITAT_CACHE_PATH = str(REPO_ROOT / "cache" / "validate_habitat_cache.csv")
 
 DAILY_VARS = "temperature_2m_max,temperature_2m_min,precipitation_sum,snow_depth_max,wind_speed_10m_max"
 SEASON_SPAN_START = dt.date(2023, 11, 1)
@@ -92,7 +93,7 @@ def features_as_of(series: dict, ref_date: dt.date) -> dict:
 
 
 def main():
-    df = pd.read_csv("/Users/maxwelltitsworth/mosquitoseverity/hst_observations_geocoded.csv")
+    df = pd.read_csv(REPO_ROOT / "hst_observations_geocoded.csv")
     geo = df.dropna(subset=["latitude", "longitude"]).copy()
 
     unique_points = geo[["latitude", "longitude"]].drop_duplicates().reset_index(drop=True)
@@ -153,7 +154,7 @@ def main():
         })
 
     out = pd.DataFrame(results)
-    out_path = "/Users/maxwelltitsworth/mosquitoseverity/validation_results.csv"
+    out_path = str(REPO_ROOT / "validation_results.csv")
     out.to_csv(out_path, index=False)
     print(f"Wrote {out_path}")
 

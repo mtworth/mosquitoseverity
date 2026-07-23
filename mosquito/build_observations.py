@@ -10,8 +10,10 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "cache"))
-from extracted_raw import ROWS  # noqa: E402
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+sys.path.insert(0, str(REPO_ROOT / "data"))
+from hst_extracted_raw import ROWS  # noqa: E402
 
 FIELDS = [
     "source", "source_url", "post_id", "author_id", "trip_id",
@@ -22,7 +24,7 @@ FIELDS = [
 
 
 def main():
-    posts = json.loads(Path("/Users/maxwelltitsworth/mosquitoseverity/cache/parsed_posts.json").read_text())
+    posts = json.loads((REPO_ROOT / "cache" / "parsed_posts.json").read_text())
     post_by_id = {p["post_id"]: p for p in posts}
 
     out_rows = []
@@ -50,7 +52,7 @@ def main():
             "raw_text": raw_text,
         })
 
-    out_path = "/Users/maxwelltitsworth/mosquitoseverity/hst_observations.csv"
+    out_path = str(REPO_ROOT / "hst_observations.csv")
     with open(out_path, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS)
         writer.writeheader()

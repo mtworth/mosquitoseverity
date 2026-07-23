@@ -68,10 +68,12 @@ def parse_posts(path: str):
     return posts
 
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 if __name__ == "__main__":
-    posts = parse_posts("/Users/maxwelltitsworth/mosquitoseverity/threads.md")
+    posts = parse_posts(str(REPO_ROOT / "threads.md"))
     print(f"{len(posts)} posts parsed")
-    out_path = "/Users/maxwelltitsworth/mosquitoseverity/cache/parsed_posts.json"
+    out_path = str(REPO_ROOT / "cache" / "parsed_posts.json")
     Path(out_path).write_text(json.dumps(posts, indent=2))
     print(f"Wrote {out_path}")
     for p in posts[:3]:

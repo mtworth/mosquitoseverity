@@ -64,5 +64,21 @@ to test before waiting for the daily schedule.
   used for validation
 - `validation_results.csv` -- model predictions vs. reported severity for
   those observations
+- `data/hst_extracted_raw.py` -- the hand-extracted (post_id, date, place,
+  severity) rows `build_observations.py` turns into `hst_observations.csv`
+- `data/gnis_sierra.csv` -- USGS GNIS place names within the Sierra
+  extent (pre-filtered to relevant feature classes), used both for HST
+  place-name geocoding and the map's search box. Regenerate from a fresh
+  raw GNIS download with `geocode.rebuild_filtered_gazetteer()` if the
+  Sierra extent or relevant classes ever change.
 - `output/` -- generated maps (gitignored; `docs/index.html` is the
   committed, published copy)
+
+## Reproducing the HST dataset from scratch
+
+```
+python -m mosquito.parse_threads       # threads.md -> cache/parsed_posts.json
+python -m mosquito.build_observations  # + data/hst_extracted_raw.py -> hst_observations.csv
+python -m mosquito.geocode             # -> hst_observations_geocoded.csv
+python -m mosquito.validate            # -> validation_results.csv
+```
