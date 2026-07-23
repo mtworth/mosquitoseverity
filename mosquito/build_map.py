@@ -142,7 +142,7 @@ def render_map(scored: pd.DataFrame, today: dt.date) -> str:
         <span style="color:#f1c40f;">&#9679;</span> Noticeable (1-2)<br>
         <span style="color:#e67e22;">&#9679;</span> Bad (2-3)<br>
         <span style="color:#e74c3c;">&#9679;</span> Severe (3-5)<br>
-        <small>Generated {date}</small>
+        <small>Generated {date} &middot; <a href="methods.html" target="_blank">Methods</a></small>
     </div>
     """.format(date=today.isoformat())
     m.get_root().html.add_child(folium.Element(legend_html))

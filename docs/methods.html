@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Methods — Sierra Mosquito Nowcast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
+    line-height: 1.55; color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #14161a; }
+    a { color: #7db8ff; }
+    code, .mono { background: #22252b; }
+    table { border-color: #3a3d44; }
+    th, td { border-color: #3a3d44; }
+    .note { background: #22252b; border-left-color: #7db8ff; }
+    .reject { background: #2a2020; border-left-color: #e07a7a; }
+  }
+  h1 { font-size: 1.6em; margin-bottom: 4px; }
+  h2 { font-size: 1.2em; margin-top: 2.2em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  .subtitle { color: #666; margin-top: 0; }
+  code, .mono { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.95em; }
+  th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
+  th { background: rgba(127,127,127,0.08); }
+  .note { background: #f4f8ff; border-left: 3px solid #3a7bd5; padding: 10px 14px; margin: 1.2em 0; }
+  .reject { background: #fff5f5; border-left: 3px solid #d5453a; padding: 10px 14px; margin: 1.2em 0; }
+  a { color: #1a56db; }
+  .back { display: inline-block; margin-bottom: 18px; }
+</style>
+</head>
+<body>
+
+<a class="back" href="index.html">&larr; Back to map</a>
+<h1>Methods</h1>
+<p class="subtitle">How the Sierra Mosquito Nowcast severity index is computed, and how it's been checked.</p>
+
+<h2>Model</h2>
+<p>
+Severity is computed with a transparent, rule-based formula, not a fitted statistical
+or machine-learning model:
+</p>
+<pre class="mono" style="padding:10px 14px; overflow-x:auto;">mosquito_potential = emergence_score(days_since_snowmelt, degree_days_since_melt)
+                    * habitat_multiplier
+                    * moisture_multiplier
+                    * current_activity_multiplier
+
+severity_score = mosquito_potential * 5.0   (clamped to 0-5)</pre>
+
+<table>
+<tr><th>Component</th><th>Source</th><th>What it captures</th></tr>
+<tr><td>Snowmelt date</td><td>MODIS MOD10A2, 8-day snow cover</td>
+    <td>Melt-out = the day after the last day snow was observed this season (scanning
+    backward from today, not the first snow-free stretch forward -- Sierra snowpack
+    routinely has brief early-season thaws before more snow falls)</td></tr>
+<tr><td>Degree-days since melt</td><td>gridMET daily temperature</td>
+    <td>Heat accumulation since melt-out; the primary driver of the emergence curve</td></tr>
+<tr><td>Habitat</td><td>NLCD land cover, JRC Global Surface Water, NASADEM slope</td>
+    <td>Wet meadow/marsh, lake edge, forested, steep/rocky, or open-dry classification</td></tr>
+<tr><td>Moisture</td><td>gridMET precipitation</td>
+    <td>Recent rain / dry-spell adjustment</td></tr>
+<tr><td>Current activity</td><td>gridMET wind &amp; temperature</td>
+    <td>Wind in particular reduces experienced biting activity independent of abundance</td></tr>
+</table>
+
+<h2>Validation data: High Sierra Topix</h2>
+<p>
+<a href="https://www.highsierratopix.com/">High Sierra Topix</a> runs an annual "Mosquito
+Reports" thread where hikers self-report conditions on a standardized 0&ndash;5 scale. We
+extracted <strong>548 place/date/severity observations from 147 of 151 individual trip
+reports</strong> across the 2024 and 2025 threads, geocoded the place names against the
+USGS GNIS gazetteer (fuzzy-matched, confidence-banded -- vague route descriptions were
+left ungeocoded rather than forced to a point), and scored each one with the model
+<em>as of its actual report date</em>, using only data available up to that date (no
+lookahead).
+</p>
+
+<div class="note">
+<strong>This dataset was used only to validate the model, not to train it.</strong>
+No regression or fitting procedure was run against it to produce the deployed
+parameters. The emergence curve, habitat multipliers, and thresholds in the deployed
+model are the same literature/hypothesis-driven values described in the project plan,
+not values fit to these 548 reports.
+</div>
+
+<h2>What the validation found</h2>
+<p>
+Spearman rank correlation between predicted and reported severity: <strong>~0.23</strong>
+(p &lt; 0.001) &mdash; a real, statistically significant relationship, but a weak one.
+Three-bucket (low/moderate/high) agreement: <strong>~43%</strong>.
+</p>
+<p>
+Two concrete things came out of this exercise:
+</p>
+<ul>
+<li><strong>A real bug, fixed:</strong> the habitat classifier treated any point within
+500m of open water as high-multiplier "lake edge / slow water" habitat -- but most named
+places in trip reports resolve to the lake itself, where "water within 500m" is trivially
+true. Steep, rocky-shored alpine lakes (poor mosquito habitat) were getting the same
+bonus as genuine marshy lake edges. Fixed by adding a slope-based
+<code>lake_rocky_shore</code> class with a much lower multiplier.</li>
+<li><strong>A recalibration attempt, tried and rejected:</strong> we tested refitting the
+degree-day emergence curve so each bucket's assigned "potential" reproduced that bucket's
+mean reported severity. That removed the model's mean-level bias almost entirely
+(predicted mean 1.46 vs. reported 1.49) &mdash; but it also collapsed the curve's
+peak-to-trough range so much that predicted severity never exceeded ~3/5 across the
+entire dataset, and the model lost the ability to distinguish severe conditions at all
+(only 23 of 94 truly-"high" reports still predicted high, down from 72 before).</li>
+</ul>
+
+<div class="reject">
+<strong>We reverted the recalibration and kept the original curve.</strong> An index
+that's unbiased on average but can't tell severe from mild is worse for this tool's
+actual purpose than one that runs somewhat high but still ranks severity correctly.
+Habitat shows a bigger real spread in this data than degree-days do (wet meadow/marsh
+reports averaged 3.39 vs. open-dry's 1.00), which is the more promising lever for
+improving severe-case discrimination going forward -- not further curve-fitting against
+a sample this size.
+</div>
+
+<h2>Known limitations</h2>
+<ul>
+<li>HST reports are self-selected -- posters skew toward reporting notable conditions
+(both surprisingly good and surprisingly bad) more than "average," which likely inflates
+both tails of the observed severity distribution relative to true frequency.</li>
+<li>381 of 548 observations resolved to a gazetteer coordinate; the rest (vague or
+compound route descriptions) were correctly left ungeocoded rather than guessed, per
+design, but that shrinks the usable validation sample further.</li>
+<li>Only two seasons of data. A proper leave-one-year-out check (fit intuition on 2024,
+verify against 2025 and vice versa) hasn't been done -- what exists so far is a single
+in-sample look, appropriate for sanity-checking direction and finding bugs, not for
+confidently tuning parameters.</li>
+<li>gridMET weather is ~4km native resolution; grid points closer together than that
+share identical weather inputs regardless of map spacing.</li>
+</ul>
+
+<p style="margin-top:3em; color:#888; font-size:0.9em;">
+<a href="index.html">&larr; back to map</a>
+</p>
+
+</body>
+</html>
