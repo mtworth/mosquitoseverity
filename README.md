@@ -76,9 +76,17 @@ to test before waiting for the daily schedule.
 
 ## Reproducing the HST dataset from scratch
 
+The raw High Sierra Topix forum scrape (`threads.md`) isn't in this repo --
+it's other people's forum posts reproduced verbatim, which is a different
+copyright situation than our own derived/transformed data. What's here is
+the already-extracted, already-geocoded output:
+`hst_observations.csv` -> `hst_observations_geocoded.csv` ->
+`validation_results.csv`. `data/hst_extracted_raw.py` is the hand-extracted
+(post_id, date, place, severity) data that produced them; `parse_threads.py`
+and `build_observations.py` document how that extraction was done but need
+a local copy of the raw scrape to actually run.
+
 ```
-python -m mosquito.parse_threads       # threads.md -> cache/parsed_posts.json
-python -m mosquito.build_observations  # + data/hst_extracted_raw.py -> hst_observations.csv
-python -m mosquito.geocode             # -> hst_observations_geocoded.csv
-python -m mosquito.validate            # -> validation_results.csv
+python -m mosquito.geocode    # hst_observations.csv -> hst_observations_geocoded.csv
+python -m mosquito.validate   # -> validation_results.csv
 ```
